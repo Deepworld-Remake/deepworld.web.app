@@ -32,10 +32,14 @@ body {
     position: fixed;
     top: 0;
     height: 80px;
-    line-height: 80px;
     font-size: 30px;
     width: 100vw;
     background-color: var(--darkest);
+}
+
+.navLink {
+    line-height: 80px;
+    vertical-align: top;
 }
 
 .content {
@@ -63,15 +67,15 @@ footer {
     vertical-align: middle;
 }
 
-.footerLink:link,
-.footerLink:visited {
+a:link,
+a:visited {
     font-size: 15px;
     color: silver;
     text-decoration: none;
 }
 
-.footerLink:hover,
-.footerLink:active {
+a:hover,
+a:active {
     text-decoration: underline;
 }
 
