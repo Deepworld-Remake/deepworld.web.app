@@ -77,4 +77,9 @@ footer {
     width: 70px;
     height: 70px;
     margin: 5px;
+    border-radius: 5px;
+}
+
+.navBarLogo:hover {
+    background-color: var(--medium);
 }
