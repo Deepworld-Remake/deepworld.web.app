@@ -18,5 +18,5 @@ xhttp.onreadystatechange = function () {
 	}
 };
 
-xhttp.open("GET", "../Config/ItemConfig.json", true);
+xhttp.open("GET", "https://raw.githubusercontent.com/Deepworld-Remake/Deepworld-Codex-Remastered/master/ItemConfig.json", true);
 xhttp.send();
