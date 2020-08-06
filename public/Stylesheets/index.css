@@ -21,6 +21,7 @@
     overflow: hidden;
     color: silver;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body {
