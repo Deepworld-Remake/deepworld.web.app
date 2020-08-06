@@ -63,13 +63,13 @@ footer {
 }
 
 .footerText {
+    font-size: 15px;
     display: table-cell;
     vertical-align: middle;
 }
 
 a:link,
 a:visited {
-    font-size: 15px;
     color: silver;
     text-decoration: none;
 }
