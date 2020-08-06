@@ -1,0 +1,63 @@
+:root {
+    --darkest: #202225;
+    --dark: #292B2F;
+    --medium: #2F3136;
+    --semigray: #36393f;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color: silver;
+}
+
+body {
+    padding-top: 80px;
+    background-color: var(--semigray);
+}
+
+.stickyNavBar {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100vw;
+    background-color: var(--darkest);
+}
+
+.content {
+    width: 100vw;
+    text-align: center;
+}
+
+.error404 {
+    font-size: 50px;
+}
+
+footer {
+    display: table;
+    position: absolute;
+    bottom: 0;
+    float: bottom;
+    width: 100vw;
+    height: 100px;
+    background-color: var(--medium);
+    text-align: center;
+}
+
+.footerText {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.footerLink:link,
+.footerLink:visited {
+    font-size: 15px;
+    color: silver;
+    text-decoration: none;
+}
+
+.footerLink:hover,
+.footerLink:active {
+    text-decoration: underline;
+}
