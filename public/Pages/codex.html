@@ -41,12 +41,26 @@
             margin-left: 0;
         }
 
+        .itemDataLink {
+            height: 40px;
+            width: 500px;
+            border-radius: 5px;
+        }
+
+        .itemDataLink:hover {
+            background-color: var(--semigray);
+        }
+
         .itemDataText {
             height: 40px;
+            position: relative;
+            line-height: 50px;
+            margin: 5px 0px 5px 50px;
         }
 
         .itemDataIcon {
-            display: inline-block;
+            position: absolute;
+            float: left;
             width: 40px;
             height: 40px;
             object-fit: contain;
