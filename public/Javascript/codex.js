@@ -11,7 +11,7 @@ xhttp.onreadystatechange = function () {
 			var lineBreak = document.createElement("br");
 			anchor.setAttribute("class", "itemDataLink");
 			anchor.setAttribute("href", `./items?itemId=${e.id}`);
-			anchor.innerText = e.ui;
+			anchor.innerHTML = `<img class="itemDataIcon" src="https://dwre-codex.web.app/Sprites/${e.sprite}.png">${e.ui}`;
 			document.querySelector(".itemData").appendChild(anchor).appendChild(lineBreak);
 		});
 	}
