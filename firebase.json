@@ -7,7 +7,10 @@
       "**/node_modules/**"
     ],
     "rewrites": [{
-      "source": "/faq/**",
+      "source": "**",
+      "destination": "/index.html"
+    }, {
+      "source": "/faq",
       "destination": "/Pages/faq.html"
     }, {
       "source": "/codex",
