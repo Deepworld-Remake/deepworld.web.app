@@ -7,14 +7,14 @@
       "**/node_modules/**"
     ],
     "rewrites": [{
-      "source": "**",
-      "destination": "/index.html"
-    }, {
       "source": "/faq",
       "destination": "/Pages/faq.html"
     }, {
       "source": "/codex",
       "destination": "/Pages/codex.html"
+    }, {
+      "source": "**",
+      "destination": "/index.html"
     }]
   }
 }
