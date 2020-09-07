@@ -83,8 +83,23 @@
             }
         }
 
-        .invitePanel {
+        .discordInvitePanel {
             display: inline-block;
+            width: 128px;
+            text-align: center;
+        }
+
+        .discordInvitePanel > a {
+            display: block;
+        }
+
+        .discordInvitePanel > a:hover {
+            filter: brightness(120%);
+        }
+
+        .discordInvitePanel > a > img {
+            border-radius: 20px;
+            background-color: #2F3136;
         }
 
         .gameJoltInfo {
@@ -125,12 +140,24 @@
         <br>
         <p>If you wish to take part in the journey of this game's development, feel free to hop on our Development
             Server below</p>
-        <br><br>
-        <iframe class="invitePanel" src="https://discordapp.com/widget?id=731511745755217931&theme=dark" width="350"
-            height="500" allowtransparency="true" frameborder="0"
-            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
-        </iframe>
         <br>
+        <p>Simply click whichever one you want to join. Both if you feel like it!</p>
+        <br>
+        <div class="discordInvites">
+            <div class="discordInvitePanel">
+                <span>Deepworld Remastered Discord</span>
+                <a href="https://discord.gg/6bv6Z6f">
+                    <img src="https://cdn.discordapp.com/icons/731511745755217931/f87fc63e93484a6cb5047ebf23b4c1db.png?size=128" alt="">
+                </a>
+            </div>
+            <div class="discordInvitePanel">
+                <span>Official Deepworld Discord</span>
+                <a href="https://discord.gg/J9FxmXM">
+                    <img src="https://cdn.discordapp.com/icons/237835843677585408/c68981577718c66e1b7bdbb2073b12a7.png?size=128" alt="">
+                </a>
+            </div>
+        </div>
+        <br><br><br>
         <p>You can get the game on Gamejolt where most versions and updates are.. Plus a custom version with Autoupdates
             that works for the Gamejolt Client</p>
         <br>
