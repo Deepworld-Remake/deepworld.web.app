@@ -1,70 +1,60 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Deepworld Remastered 2D</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-  </head>
-  <body>
-    <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas"></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
-        </div>
-      </div>
-      <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Deepworld Remastered 2D</div>
-      </div>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../Icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="57x57" href="../Icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../Icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../Icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../Icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../Icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../Icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../Icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../Icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../Icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../Icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Icons/favicon-16x16.png">
+    <link rel="manifest" href="../Icons/manifest.json">
+    <title>Deepworld Remastered</title>
+    <link rel="stylesheet" href="../Stylesheets/index.css">
+</head>
+
+<body>
+    <div class="stickyNavBar">
+        <a href="https://deepworld.web.app/"><img class="navBarLogo" src="../Images/D.png" alt=""></a>
+        <a href="https://deepworld.web.app/faq" class="navLink">FAQ</a>
+        <a href="https://deepworld.web.app/codex" class="navLink">Codex</a>
+        <a href="https://deepworld.web.app/game" class="navLink">Game</a>
     </div>
-    <script>
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/finalGameWebgl.loader.js";
-      var config = {
-        dataUrl: buildUrl + "/finalGameWebgl.data",
-        frameworkUrl: buildUrl + "/finalGameWebgl.framework.js",
-        codeUrl: buildUrl + "/finalGameWebgl.wasm",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "Functional Workflow",
-        productName: "Deepworld Remastered 2D",
-        productVersion: "0.6.4",
-      };
+    <br>
+    <iframe src="https://deepworld.web.app/deepworld" frameborder="0"></iframe>
+    <br><br><br>
+    <footer>
+        <div class="footerText">
+            <a href="" class="footerLink">Contact</a> | <a href="https://github.com/Deepworld-Remake"
+                class="footerLink">Github</a>
+            <br><br>
+            Licensed MIT (c) 2020 Taylor Schneider
+        </div>
+    </footer>
+</body>
 
-      var container = document.querySelector("#unity-container");
-      var canvas = document.querySelector("#unity-canvas");
-      var loadingBar = document.querySelector("#unity-loading-bar");
-      var progressBarFull = document.querySelector("#unity-progress-bar-full");
-      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.17.2/firebase-app.js"></script>
 
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        container.className = "unity-mobile";
-        config.devicePixelRatio = 1;
-      } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
-      }
-      loadingBar.style.display = "block";
+<!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.17.2/firebase-analytics.js"></script>
 
-      var script = document.createElement("script");
-      script.src = loaderUrl;
-      script.onload = () => {
-        createUnityInstance(canvas, config, (progress) => {
-          progressBarFull.style.width = 100 * progress + "%";
-        }).then((unityInstance) => {
-          loadingBar.style.display = "none";
-          fullscreenButton.onclick = () => {
-            unityInstance.SetFullscreen(1);
-          };
-        }).catch((message) => {
-          alert(message);
-        });
-      };
-      document.body.appendChild(script);
-    </script>
-  </body>
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
 </html>

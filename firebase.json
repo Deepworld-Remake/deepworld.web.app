@@ -7,11 +7,20 @@
       "**/node_modules/**"
     ],
     "rewrites": [{
-      "source": "/faq",
+      "source": "/deepworld**",
+      "destination": "/Pages/Game/index.html"
+    }, {
+      "source": "/faq**",
       "destination": "/Pages/faq.html"
     }, {
-      "source": "/codex",
+      "source": "/codex**",
       "destination": "/Pages/codex.html"
+    }, {
+      "source": "/items?**",
+      "destination": "/Pages/items.html"
+    }, {
+      "source": "/game**",
+      "destination": "/Pages/game.html"
     }, {
       "source": "**",
       "destination": "/index.html"
