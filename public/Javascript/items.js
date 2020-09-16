@@ -28,6 +28,9 @@ xhttp.onreadystatechange = function () {
             document.querySelector(".dataItemID").innerText = currentItem.id;
             document.querySelector(".dataItemName").innerText = currentItem.ui;
             document.querySelector(".dataItemClass").innerText = currentItem.name;
+            document.querySelector(".dataItemDim").innerText = `${(currentItem.dim[0] || currentItem.dim || 0)} x ${(currentItem.dim[1] || currentItem.dim || 0)}`;
+            document.querySelector(".itemDesc").innerText = currentItem.desc;
+            document.querySelector(".itemProps").innerText = currentItem.props.join("\n\r");
         }
     }
 };
