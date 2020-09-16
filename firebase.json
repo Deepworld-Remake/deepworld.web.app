@@ -16,7 +16,7 @@
       "source": "/codex**",
       "destination": "/Pages/codex.html"
     }, {
-      "source": "/items?**",
+      "source": "/items**",
       "destination": "/Pages/items.html"
     }, {
       "source": "/game**",

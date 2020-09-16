@@ -16,11 +16,14 @@ xhttp.onreadystatechange = function () {
         var obj = this.responseText;
         itemData = JSON.parse(obj);
         const urlParams = new URLSearchParams(window.location.search);
-        if (!urlParams.has("itemId")) {
+        console.log(urlParams);
+        if (!urlParams.has("itemId") || urlParams.get("itemId") == undefined || itemData[urlParams.get("itemId")] == undefined) {
             window.location.replace("http://deepworld.web.app/codex");
         }
-        const currentItem = findWithAttr(itemData, "id", urlParams.get("itemId"));
+        const currentItem = itemData[urlParams.get("itemId")];
+        console.log(currentItem);
         if (currentItem.name) {
+            document.querySelector(".itemIcon").src = `https://dwre-codex.web.app/Sprites/${currentItem.sprite}.png`;
             var anchor = document.createElement("a");
             anchor.setAttribute("class", "itemDataLink");
             anchor.setAttribute("href", `./items?itemId=${currentItem.id}`);
