@@ -24,11 +24,10 @@ xhttp.onreadystatechange = function () {
         console.log(currentItem);
         if (currentItem.name) {
             document.querySelector(".itemIcon").src = `https://dwre-codex.web.app/Sprites/${currentItem.sprite}.png`;
-            var anchor = document.createElement("a");
-            anchor.setAttribute("class", "itemDataLink");
-            anchor.setAttribute("href", `./items?itemId=${currentItem.id}`);
-            anchor.innerHTML = `<img class="itemDataIcon" src="https://dwre-codex.web.app/Sprites/${currentItem.sprite}.png"><span class="itemDataText">${currentItem.ui}</span><div class="itemDataId">${currentItem.id}</div>`;
-            document.querySelector(".itemData").appendChild(anchor);
+            document.querySelector(".itemName").innerText = currentItem.ui;
+            document.querySelector(".dataItemID").innerText = currentItem.id;
+            document.querySelector(".dataItemName").innerText = currentItem.ui;
+            document.querySelector(".dataItemClass").innerText = currentItem.name;
         }
     }
 };

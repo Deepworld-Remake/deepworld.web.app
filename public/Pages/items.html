@@ -34,10 +34,16 @@
         .itemData {
             margin: 20px;
             display: inline-block;
-            text-align: left;
             width: 70vw;
             padding-top: 5px;
             z-index: 1;
+        }
+
+        .itemName {
+            vertical-align: top;
+            display: inline-block;
+            line-height: 80px;
+            font-size: 20px;
         }
 
         .itemDataLink {
@@ -72,14 +78,37 @@
             height: 40px;
             object-fit: contain;
         }
-        
+
         .itemIcon {
             width: 80px;
             height: 80px;
+            display: inline-block;
+        }
+
+        .rightTable {
+            border-left: 1px solid white;
+            text-align: left;
+        }
+
+        td {
+            padding: 3px 5px 3px 5px;
+            text-align: right;
+        }
+
+        tr {
+            border: 0;
+            font-size: 12px;
+        }
+
+        table {
+            border-collapse: collapse;
+            display: inline-table;
         }
 
         @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-            .itemDataLink, .itemData {
+
+            .itemDataLink,
+            .itemData {
                 width: 95vw;
             }
 
@@ -93,7 +122,9 @@
         }
 
         @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
-            .itemDataLink, .itemData {
+
+            .itemDataLink,
+            .itemData {
                 width: 95vw;
             }
 
@@ -117,6 +148,29 @@
     <div class="content">
         <div class="itemData">
             <img src="" alt="" class="itemIcon">
+            <br>
+            <span class="itemName"></span>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Item ID</td>
+                        <td class="dataItemID rightTable"></td>
+                    </tr>
+                    <tr>
+                        <td>Item Name</td>
+                        <td class="dataItemName rightTable"></td>
+                    </tr>
+                    <tr>
+                        <td>Item Class</td>
+                        <td class="dataItemClass rightTable"></td>
+                    </tr>
+                    <tr>
+                        <td>Dimensions</td>
+                        <td class="dataItemDim rightTable"></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
     <br><br><br>
