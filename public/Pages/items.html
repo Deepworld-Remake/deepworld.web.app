@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../Icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="57x57" href="../Icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../Icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../Icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../Icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../Icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../Icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../Icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../Icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../Icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../Icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Icons/favicon-16x16.png">
+    <link rel="manifest" href="../Icons/manifest.json">
+    <title>Deepworld Remastered</title>
+    <link rel="stylesheet" href="../Stylesheets/index.css">
+    <style>
+        .content {
+            overflow-y: auto;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+        }
+
+        .itemData {
+            margin: 20px;
+            display: inline-block;
+            text-align: left;
+            width: 70vw;
+            padding-top: 5px;
+            z-index: 1;
+        }
+
+        .itemDataLink {
+            height: 40px;
+            width: 70vw;
+            border-radius: 5px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .itemDataLink:hover {
+            background-color: var(--semigray);
+        }
+
+        .itemDataText {
+            height: 40px;
+            position: relative;
+            line-height: 40px;
+            margin-left: 50px;
+        }
+
+        .itemDataId {
+            height: 40px;
+            line-height: 40px;
+            float: right;
+        }
+
+        .itemDataIcon {
+            position: absolute;
+            float: left;
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+            .itemDataLink, .itemData {
+                width: 95vw;
+            }
+
+            .itemData {
+                margin: 5px;
+            }
+
+            .content {
+                font-size: 10px;
+            }
+        }
+
+        @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+            .itemDataLink, .itemData {
+                width: 95vw;
+            }
+
+            .itemData {
+                margin: 5px;
+            }
+
+            .content {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="stickyNavBar">
+        <a href="https://deepworld.web.app/"><img class="navBarLogo" src="../Images/D.png" alt=""></a>
+        <a href="https://deepworld.web.app/faq" class="navLink">FAQ</a>
+        <a href="https://deepworld.web.app/codex" class="navLink">Codex</a>
+    </div>
+    <div class="content">
+        <div class="itemData">
+
+        </div>
+    </div>
+    <br><br><br>
+    <footer>
+        <div class="footerText">
+            <a href="" class="footerLink">Contact</a> | <a href="https://github.com/Deepworld-Remake"
+                class="footerLink">Github</a>
+            <br><br>
+            Licensed MIT (c) 2020 Taylor Schneider
+        </div>
+    </footer>
+</body>
+
+<script src="../Javascript/items.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.17.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.17.2/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+</html>
