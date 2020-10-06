@@ -7,9 +7,6 @@
       "**/node_modules/**"
     ],
     "rewrites": [{
-      "source": "/deepworld**",
-      "destination": "/Pages/Game/index.html"
-    }, {
       "source": "/faq**",
       "destination": "/Pages/faq.html"
     }, {
