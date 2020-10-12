@@ -30,16 +30,20 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Deepworld Remastered Homepage">
     <meta property="og:description" content="Main website for Deepworld Remastered">
-    <meta property="og:image" content="./Images/D.png">
+    <meta property="og:image" content="https://deepworld.web.app/Images/D.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="Deepworld Remastered Homepage">
     <meta property="twitter:description" content="Main website for Deepworld Remastered">
-    <meta property="twitter:image" content="./Images/D.png">
+    <meta property="twitter:image" content="https://deepworld.web.app/Images/D.png">
 
     <link rel="stylesheet" href="../Stylesheets/index.css">
     <style>
+        body {
+            background-image: url("./Images/Splash.png");
+        }
+
         .content {
             overflow-y: auto;
             font-size: 15px;
@@ -51,7 +55,8 @@
             margin: 20px;
             display: inline-block;
             width: 70vw;
-            padding-top: 5px;
+            padding: 20px;
+            border-radius: 10px;
             z-index: 1;
         }
 
@@ -125,12 +130,14 @@
 </head>
 
 <body>
-    <div class="stickyNavBar">
-        <a href="https://deepworld.web.app/"><img class="navBarLogo" src="../Images/D.png" alt=""></a>
-        <a href="https://deepworld.web.app/faq" class="navLink">FAQ</a>
-        <a href="https://deepworld.web.app/codex" class="navLink">Codex</a>
-    </div>
-    <div class="content">
+    <div class="underHeader"></div>
+    <header class="websiteHeader">
+        <img src="./Images/D.png" alt="" class="websiteLogo">
+        <a href="./" class="websiteAnchor highlightedLink">Home</a>
+        <a href="./faq" class="websiteAnchor">FAQ</a>
+        <a href="./codex" class="websiteAnchor">Codex</a>
+    </header>
+    <div class="websiteContent">
         <div class="itemData">
             <img src="" alt="" class="itemIcon">
             <br>
@@ -162,18 +169,14 @@
             <span class="itemProps"></span>
         </div>
     </div>
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
-    <footer>
-        <div class="footerText">
-            <a href="" class="footerLink">Contact</a> | <a href="https://github.com/Deepworld-Remake"
-                class="footerLink">Github</a>
-            <br><br>
-            Licensed MIT (c) 2020 Taylor Schneider
-        </div>
+    <footer class="websiteFooter">
+        <span class="footerText">Copyright © Taylor Schneider</span>
+        <a href="https://mistersircode.web.app/" target="_blank" class="websiteAnchor">Home Website</a>
+        <a href="https://github.com/mistersircode" target="_blank" class="websiteAnchor">Github</a>
+        <a href="https://stackoverflow.com/users/11165703/mister-sircode" target="_blank"
+            class="websiteAnchor">Stackoverflow</a>
+        <a href="https://discord.gg/8TxtWS2" target="_blank" class="websiteAnchor">Discord Server</a>
+        <a href="https://twitter.com/TheRealSirCode" target="_blank" class="websiteAnchor">Twitter</a>
     </footer>
 </body>
 
