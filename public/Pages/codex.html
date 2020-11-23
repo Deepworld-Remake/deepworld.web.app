@@ -52,6 +52,7 @@
         }
 
         .itemData {
+            background: transparent;
             border-radius: 10px;
             padding: 20px;
             margin: 20px;
@@ -62,16 +63,23 @@
         }
 
         .itemDataLink {
-            height: 40px;
+            padding: 10px;
+            height: 61px;
             width: calc(70vw - 40px);
             border-radius: 5px;
             display: block;
-            margin-bottom: 5px;
+            margin-bottom: 30px;
             background: black;
+            border: 1px solid white;
         }
 
-        .itemDataLink:hover {
-            background: #161616;
+        .itemDataLink:hover,
+        .itemDataLink:nth-child(odd):hover {
+            background: #1f1f1f;
+        }
+
+        .itemDataLink:nth-child(odd) {
+            background-color: #101010;
         }
 
         .itemDataText {
@@ -96,6 +104,39 @@
             height: 40px;
             object-fit: contain;
             background: transparent;
+        }
+
+        .itemSearchBar {
+            top: 50px;
+            position: absolute;
+            width: 100vw;
+            height: 40px;
+            padding: 5px;
+            border-radius: 0;
+            margin-bottom: 30px;
+            background: black;
+            border-bottom: 1px solid white;
+        }
+
+        .itemSearchInput {
+            top: 5px;
+            left: 5px;
+            position: absolute;
+            border-radius: 5px;
+            text-align: center;
+            width: calc(100% - 65px);
+            border: 1px solid white;
+            height: 30px;
+        }
+
+        .itemSearchButton {
+            top: 5px;
+            right: 5px;
+            border-radius: 5px;
+            position: absolute;
+            border: 1px solid white;
+            width: 50px;
+            height: 30px;
         }
 
         @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
@@ -133,13 +174,16 @@
 </head>
 
 <body>
+    <img src="./Images/Splash.png" class="backgroundBodyImage"></img>
     <div class="underHeader"></div>
     <header class="websiteHeader">
         <img src="./Images/D.png" alt="" class="websiteLogo">
-        <a href="./" class="websiteAnchor highlightedLink">Home</a>
+        <a href="./" class="websiteAnchor">Home</a>
         <a href="./faq" class="websiteAnchor">FAQ</a>
-        <a href="./codex" class="websiteAnchor">Codex</a>
+        <a href="./codex" class="websiteAnchor highlightedLink">Codex</a>
     </header>
+    <div class="itemSearchBar"><input type="text" class="itemSearchInput" placeholder="Item Name"><button
+            class="itemSearchButton">Search</button></div>
     <div class="websiteContent">
         <div class="itemData">
 
@@ -147,12 +191,15 @@
     </div>
     <footer class="websiteFooter">
         <span class="footerText">Copyright © Taylor Schneider</span>
-        <a href="https://mistersircode.web.app/" target="_blank" class="websiteAnchor">Home Website</a>
-        <a href="https://github.com/mistersircode" target="_blank" class="websiteAnchor">Github</a>
-        <a href="https://stackoverflow.com/users/11165703/mister-sircode" target="_blank"
-            class="websiteAnchor">Stackoverflow</a>
-        <a href="https://discord.gg/8TxtWS2" target="_blank" class="websiteAnchor">Discord Server</a>
-        <a href="https://twitter.com/TheRealSirCode" target="_blank" class="websiteAnchor">Twitter</a>
+        <a href="https://github.com/mistersircode" target="_blank" class="websiteAnchor"><img
+                src="./Images/GitHub-Mark-Light-120px-plus.png" alt="" class="socialImage"></a>
+        <a href="https://stackoverflow.com/users/11165703/mister-sircode" target="_blank" class="websiteAnchor"><img
+                src="./Images/logo-stackoverflow.png" alt="" class="socialImage"></a>
+        <a href="https://discord.gg/8TxtWS2" target="_blank" class="websiteAnchor"><img
+                src="./Images/Discord-Logo-White.png" alt="" class="socialImage"></a>
+        <a href="https://twitter.com/TheRealSirCode" target="_blank" class="websiteAnchor"><img
+                src="./Images/Twitter_Logo_WhiteOnImage.png" alt="" class="socialImage"></a>
+        <a class="websiteAnchor"></a>
     </footer>
 </body>
 
