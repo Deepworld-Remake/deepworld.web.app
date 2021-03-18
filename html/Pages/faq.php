@@ -72,87 +72,49 @@
 			<h1>Frequently Asked Questions</h1>
 			<p>Suggest / Ask for more in the discord (Contact Page)</p>
 			<br>
-            <br><br>
-            <h2>Will Deepworld RE be online? Offline? Servers?</h2><br>
-            <p>
-                Deepworld Remastered will start off offline. The game will proceed in development until it is stable.
-                Once
-                that
-                is achieved, dedicated servers will be considered.
-            </p>
-            <br><br><br>
-            <h2>Will PlayerData be stored offline? Will Anticheats be put in place?</h2><br>
-            <p>
-                Player and World data will be stored offline in .dwd and .dww files. Simple binary files. Anticheats are
-                not
-                planned at the moment.</p>
-            <br><br><br>
-            <h2>What are Universes? How will Worlds and Servers work?</h2><br>
-            <p>
-                Each "Universe" is just like the original deepworld. Each Universe you join has many worlds, and each
-                universe
-                has a Character or Player.
-                Every single universe you join is different. Differnt worlds, different inventories, different skills /
-                levels,
-                different ranks, different clothing.
-                The only thing that is the same across universes, is your Order of the Sun AND Eye rank, your Player
-                Name,
-                your
-                Leaderboard Data and your Friends List.
-                Your "Friends List" is the disabled "Offline" tab ingame. Currently multiplayer does not function, so it
-                doesnt
-                do anything.</p>
-            <br><br><br>
-            <h2>What is the "Order of the Sun"?</h2><br>
-            <p>
-                The "Order of the Sun" is a new order that was never implemented into the original game. Your rank in
-                the
-                Order
-                of the Sun is completely dependent on your time playing the game.
-                To enter the order of the sun (Iron), you must play the game for 2 hours straight without logging off.
-                Dedicated. Brass? You must have 24 hours of total play time. Sapphire?
-                At least play the game for more than a month. Ruby? 168 hours of ingame time spent playing... A week
-                basically.
-                Finally, Onyx? You must have played more than 6 months on deepworld. Half a year of existing. Thisll
-                take a
-                while.</p>
-            <br><br><br>
-            <h2>What is the "Order of the Eye"?</h2><br>
-            <p>
-                The Order of the Eye is an elite force of Veteran Players and Moderators of either Deepworld RE or
-                Deepworld.
-                Iron represents anyone who took part in Deepworld OG for more than a year. Brass is the rank of
-                extremely
-                well
-                known and trusted users of deepworld og with a long past. Saphire Eye represents the
-                arbiters of the Deepworld OG Forum / Discord, and Moderators / Arbiters of Deepworld OG. Ruby represents
-                Developers of Deepworld RE and Employees of ByteBin / Especially well known Moderators of Deepworld OG.
-                (This is a reference to the Ruby Sign, which could only be placed by deepworld's original Devs or
-                Admins).
-                Onyx
-                Eye represents original Developers or Artists who helped make and create the original deepworld we know
-                and
-                love.
-                Registration for Order of the Eye will only be available when multiplayer arrives. When it does, visit
-                the
-                discord and contact a moderator or developer.
-            </p>
-            <br><br><br>
-            <h2>Will there be versions for Mobile? iOS and Android? What about mac?</h2><br>
-            <p>
-                Well mac and windows versions do already exist. There are also plans on setting up a Linux build too. As
-                for
-                mobile...
-                iOS and Android? They <b>will</b> be supported. They are planned to be released alongside the release
-                1.0
-                update. As for how they will function and be different?
-                The mobile versions will still be able to do all the things you can do on PC. When multiplayer is
-                setup..
-                you
-                will be able to join servers on mobile.
-            </p>
 		</div>
 	</header>
+	<div class="container features">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Offline Mode? Multiplayer?</h3>
+				<p>
+                Deepworld Remastered will start off offline. The game will proceed in development until it is stable.
+                Once that is achieved, dedicated servers will be considered.
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Mobile? iOS / Android? Mac?</h3>
+				<p>
+					Well mac and windows versions do already exist. There are also plans on setting up a Linux build
+					too. As for mobile... iOS and Android? They <b>will</b> be supported. They are planned to be released alongside the
+					release 1.0 update. As for how they will function and be different?
+					The mobile versions will still be able to do all the things you can do on PC. When multiplayer is
+					setup.. you will be able to join servers on mobile.
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Mobile? iOS / Android? Mac?</h3>
+				<p>
+					Well mac and windows versions do already exist. There are also plans on setting up a Linux build
+					too. As for mobile... iOS and Android? They <b>will</b> be supported. They are planned to be released alongside the
+					release 1.0 update. As for how they will function and be different?
+					The mobile versions will still be able to do all the things you can do on PC. When multiplayer is
+					setup.. you will be able to join servers on mobile.
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Mobile? iOS / Android? Mac?</h3>
+				<p>
+					Well mac and windows versions do already exist. There are also plans on setting up a Linux build
+					too. As for mobile... iOS and Android? They <b>will</b> be supported. They are planned to be released alongside the
+					release 1.0 update. As for how they will function and be different?
+					The mobile versions will still be able to do all the things you can do on PC. When multiplayer is
+					setup.. you will be able to join servers on mobile.
+				</p>
+			</div>
+		</div>
+	</div>
 	<footer class="page-footer">
 		<div class="footer-copyright text-center">Copyright © 2021</div>
 		<div class="footer-copyright text-center">Owned and Distributed by Taylor Schneider</div>
