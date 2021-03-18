@@ -144,6 +144,10 @@ body * {
 	text-align: center;
 }
 
+.features p {
+    color: var(--text-color);
+}
+
 @media (max-width: 575.98px) {
 	.description {
 		left: 0;
