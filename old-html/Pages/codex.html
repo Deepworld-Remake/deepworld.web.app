@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../Icons/ms-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../Icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../Icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../Icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../Icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../Icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../Icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../Icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../Icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../Icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../Icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Icons/favicon-16x16.png">
+    <link rel="manifest" href="../Icons/manifest.json">
+    <!-- Primary Meta Tags -->
+    <title>Deepworld Homepage</title>
+    <meta name="title" content="Deepworld Remastered Homepage">
+    <meta name="description" content="Main website for Deepworld Remastered">
+    <meta name="theme-color" content="#f4be25">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Deepworld Remastered Homepage">
+    <meta property="og:description" content="Main website for Deepworld Remastered">
+    <meta property="og:image" content="https://deepworld.web.app/Images/D.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Deepworld Remastered Homepage">
+    <meta property="twitter:description" content="Main website for Deepworld Remastered">
+    <meta property="twitter:image" content="https://deepworld.web.app/Images/D.png">
+
+    <link rel="stylesheet" href="../Stylesheets/index.css">
+    <style>
+        body {
+            background-image: url("./Images/Splash.png");
+        }
+
+        .websiteContent {
+            overflow-y: auto;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+        }
+
+        .itemData {
+            background: transparent;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            text-align: left;
+            width: 70vw;
+            z-index: 1;
+        }
+
+        .itemDataLink {
+            padding: 10px;
+            height: 61px;
+            width: calc(70vw - 40px);
+            border-radius: 5px;
+            display: block;
+            margin-bottom: 30px;
+            background: black;
+            border: 1px solid white;
+        }
+
+        .itemDataLink:hover,
+        .itemDataLink:nth-child(odd):hover {
+            background: #1f1f1f;
+        }
+
+        .itemDataLink:nth-child(odd) {
+            background-color: #101010;
+        }
+
+        .itemDataText {
+            height: 40px;
+            position: relative;
+            line-height: 40px;
+            margin-left: 50px;
+            background: transparent;
+        }
+
+        .itemDataId {
+            height: 40px;
+            line-height: 40px;
+            float: right;
+            background: transparent;
+        }
+
+        .itemDataIcon {
+            position: absolute;
+            float: left;
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            background: transparent;
+        }
+
+        .itemSearchBar {
+            top: 50px;
+            position: absolute;
+            width: 100vw;
+            height: 40px;
+            padding: 5px;
+            border-radius: 0;
+            margin-bottom: 30px;
+            background: black;
+            border-bottom: 1px solid white;
+        }
+
+        .itemSearchInput {
+            top: 5px;
+            left: 5px;
+            position: absolute;
+            border-radius: 5px;
+            text-align: center;
+            width: calc(100% - 65px);
+            border: 1px solid white;
+            height: 30px;
+        }
+
+        .itemSearchButton {
+            top: 5px;
+            right: 5px;
+            border-radius: 5px;
+            position: absolute;
+            border: 1px solid white;
+            width: 50px;
+            height: 30px;
+        }
+
+        @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+            .itemDataLink,
+            .itemData {
+                width: 95vw;
+            }
+
+            .itemData {
+                margin: 5px;
+            }
+
+            .websiteContent {
+                font-size: 10px;
+            }
+        }
+
+        @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+
+            .itemDataLink,
+            .itemData {
+                width: 95vw;
+            }
+
+            .itemData {
+                margin: 5px;
+            }
+
+            .websiteContent {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./Images/Splash.png" class="backgroundBodyImage"></img>
+    <div class="underHeader"></div>
+    <header class="websiteHeader">
+        <img src="./Images/D.png" alt="" class="websiteLogo">
+        <a href="./" class="websiteAnchor">Home</a>
+        <a href="./faq" class="websiteAnchor">FAQ</a>
+        <a href="./codex" class="websiteAnchor highlightedLink">Codex</a>
+    </header>
+    <div class="itemSearchBar"><input type="text" class="itemSearchInput" placeholder="Item Name"><button
+            class="itemSearchButton">Search</button></div>
+    <div class="websiteContent">
+        <div class="itemData">
+
+        </div>
+    </div>
+    <footer class="websiteFooter">
+        <span class="footerText">Copyright © Taylor Schneider</span>
+        <a href="https://github.com/mistersircode" target="_blank" class="websiteAnchor"><img
+                src="./Images/GitHub-Mark-Light-120px-plus.png" alt="" class="socialImage"></a>
+        <a href="https://stackoverflow.com/users/11165703/mister-sircode" target="_blank" class="websiteAnchor"><img
+                src="./Images/logo-stackoverflow.png" alt="" class="socialImage"></a>
+        <a href="https://discord.gg/8TxtWS2" target="_blank" class="websiteAnchor"><img
+                src="./Images/Discord-Logo-White.png" alt="" class="socialImage"></a>
+        <a href="https://twitter.com/TheRealSirCode" target="_blank" class="websiteAnchor"><img
+                src="./Images/Twitter_Logo_WhiteOnImage.png" alt="" class="socialImage"></a>
+        <a class="websiteAnchor"></a>
+    </footer>
+</body>
+
+<script src="../Javascript/codex.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.17.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.17.2/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+</html>

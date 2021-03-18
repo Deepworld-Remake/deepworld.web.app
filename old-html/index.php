@@ -1,0 +1,186 @@
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="./Icons/ms-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="./Icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./Icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./Icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./Icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./Icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./Icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./Icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./Icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./Icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="./Icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./Icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./Icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./Icons/favicon-16x16.png">
+
+	<!-- Primary Meta Tags -->
+	<title>Deepworld Remastered</title>
+	<meta name="title" content="Mister SirCodes Homepage">
+	<meta name="description" content="Main website for my Projects and Portfolio">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Mister SirCodes Homepage">
+	<meta property="og:description" content="Main website for my Projects and Portfolio">
+	<meta property="og:image" content="https://mistersircode.com/Images/SCLOGOSmall.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:title" content="Mister SirCodes Homepage">
+	<meta property="twitter:description" content="Main website for my Projects and Portfolio">
+	<meta property="twitter:image" content="https://mistersircode.com/Images/SCLOGOSmall.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<style>
+
+	</style>
+	<link rel="stylesheet" href="./Stylesheets/index.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-md">
+		<a class="navbar-brand" href="/">
+			<img src="./Images/SCLOGOSmall.png" alt="" height="30px">
+		</a>
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="main-navigation">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./projects">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../art">Art</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./portfolio">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<header class="page-header header container-fluid">
+		<div class="overlay"></div>
+		<div class="description">
+			<h1>Welcome to Mister SirCode's Homepage</h1>
+			<p>This is a Portfiolio Site that I use to store and archive my Projects, Art, and other such things</p>
+			<br>
+			<h6>Background Arts by <a href="https://www.pexels.com/@earano">Emiliano Arano</a></h6>
+		</div>
+	</header>
+	<footer class="page-footer">
+		<div class="footer-copyright text-center">Copyright © 2021</div>
+		<div class="footer-copyright text-center">Owned and Distributed by Taylor Schneider</div>
+	</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+	integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+	integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+</script>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./Icons/ms-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="./Icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./Icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./Icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./Icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./Icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./Icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./Icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./Icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./Icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./Icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./Icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./Icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./Icons/favicon-16x16.png">
+  <link rel="manifest" href="./Icons/manifest.json">
+
+  <!-- Primary Meta Tags -->
+  <title>Deepworld Homepage</title>
+  <meta name="title" content="Deepworld Remastered Homepage">
+  <meta name="description" content="Main website for Deepworld Remastered">
+  <meta name="theme-color" content="#f4be25">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Deepworld Remastered Homepage">
+  <meta property="og:description" content="Main website for Deepworld Remastered">
+  <meta property="og:image" content="./Images/D.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Deepworld Remastered Homepage">
+  <meta property="twitter:description" content="Main website for Deepworld Remastered">
+  <meta property="twitter:image" content="./Images/D.png">
+
+  <link rel="stylesheet" href="./Stylesheets/index.css">
+</head>
+
+<body>
+  <img src="./Images/Splash.png" class="backgroundBodyImage"></img>
+  <div class="underHeader"></div>
+  <header class="websiteHeader">
+    <img src="./Images/D.png" alt="" class="websiteLogo">
+    <a href="./" class="websiteAnchor highlightedLink">Home</a>
+    <a href="./faq" class="websiteAnchor">FAQ</a>
+    <a href="./codex" class="websiteAnchor">Codex</a>
+  </header>
+  <div class="websiteContent">
+    <div class="itemBox">
+      <h1>Deepworld Remastered</h1>
+      <h3>The Deepworld Revival Project</h3>
+    </div>
+    <br>
+    <div class="itemBox">
+      <h3>Whos Developing This?</h3>
+      <span>The main developer of Deepworld Remastered is Mister SirCode (Taylor Schneider)</span>
+      <br><br>
+      <h3>What Is This?</h3>
+      <span>Deepworld Remastered is based of the Massively-Multiplayer MMORPG "Deepworld" created by Bytebin.<br>The
+        game was shutdown on August 30th, 2019 after around 7 years of development and usage.</span>
+    </div>
+  </div>
+  <footer class="websiteFooter">
+    <span class="footerText">Copyright © Taylor Schneider</span>
+    <a href="https://github.com/mistersircode" target="_blank" class="websiteAnchor"><img
+        src="./Images/GitHub-Mark-Light-120px-plus.png" alt="" class="socialImage"></a>
+    <a href="https://stackoverflow.com/users/11165703/mister-sircode" target="_blank" class="websiteAnchor"><img
+        src="./Images/logo-stackoverflow.png" alt="" class="socialImage"></a>
+    <a href="https://discord.gg/8TxtWS2" target="_blank" class="websiteAnchor"><img
+        src="./Images/Discord-Logo-White.png" alt="" class="socialImage"></a>
+    <a href="https://twitter.com/TheRealSirCode" target="_blank" class="websiteAnchor"><img
+        src="./Images/Twitter_Logo_WhiteOnImage.png" alt="" class="socialImage"></a>
+    <a class="websiteAnchor"></a>
+  </footer>
+</body>
+
+<script src="./Javascript/index.js"></script>
+
+</html>
