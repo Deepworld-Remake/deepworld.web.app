@@ -66,13 +66,15 @@
 			</ul>
 		</div>
 	</nav>
-	<header class="page-header header container-fluid">
+	<header class="page-header header container-fluid"> 
 		<div class="overlay"></div>
 		<div class="description">
 			<h1>Deepworld Remastered</h1>
-			<p>This is a Portfiolio Site that I use to store and archive my Projects, Art, and other such things</p>
+			<p>Deepworld Remastered is based off the Massively-Multiplayer MMORPG "Deepworld" created by Bytebin.
+      The game was shutdown on August 30th, 2019 after around 7 years of development and usage</p>
+      <h6>It is currently being developed by Mister SirCode</h6>
+      <h6>If you want to see more, head to the FAQ, Items, or Contact pages above</h6>
 			<br>
-			<h6>Background Arts by <a href="https://www.pexels.com/@earano">Emiliano Arano</a></h6>
 		</div>
 	</header>
 	<footer class="page-footer">
