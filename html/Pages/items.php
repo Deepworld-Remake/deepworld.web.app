@@ -47,7 +47,7 @@
 <body>
 	<nav class="navbar navbar-expand-md">
 		<a class="navbar-brand" href="/">
-			<img src="../Images/SCLOGOSmall.png" alt="" height="30px">
+			<img src="../Images/D.png" alt="" height="30px">
 		</a>
 		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -61,7 +61,7 @@
 					<a class="nav-link" href="../faq">FAQ</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="../items">Items</a>
+					<a class="nav-link">Items</a>
 				</li>
 			</ul>
 		</div>
@@ -69,50 +69,20 @@
 	<header class="page-header header container-fluid">
 		<div class="overlay"></div>
 		<div class="description">
-			<h1>Art and Models</h1>
-			<p>Renders, drawings, 3D models, and other miscellaneous art I've created.<br>
-				Scroll down for more information</p>
+			<h1>Items and Blocks</h1>
+			<p>Just things in Deepworld</p>
+			<h6>Search with Ctrl+F</h6>
+			<h6>Search In Page on mobile</h6>
 			<br>
-			<h6>Background Arts by <a href="https://www.pexels.com/@earano">Emiliano Arano</a></h6>
 		</div>
 	</header>
 	<div class="container features">
 		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-12">
+			<!-- <div class="col-lg-4 col-md-4 col-sm-12">
 				<h3 class="feature-title">Fox Sketch</h3>
 				<img src="../Images/Art/FoxSketch.png" class="img-fluid">
 				<p>(Copyrighted) One of my first Digital Only drawings. Originally based off of a wolf, but adapted into a drawing of a fox.</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<h3 class="feature-title">Mandelbulb</h3>
-				<img src="../Images/Art/Mandelbulb.png" class="img-fluid">
-				<p>This was a 3D Rendered Mandelbrot Fractal. Created using immense complex formulea and subsurface materials I created.</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<h3 class="feature-title">The Old Eye</h3>
-				<img src="../Images/Art/EyeSketch.png" class="img-fluid">
-				<p>(Copyrighted) One of my more recent sketches. Based off a photo of a human eye socket.</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<h3 class="feature-title">HOT</h3>
-				<img src="../Images/Art/Hot.png" class="img-fluid">
-				<p>A 3D rendered "Sun" of some sort. It was less of a creation and more of an accident, but I still love the design</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<h3 class="feature-title">Coldrock</h3>
-				<img src="../Images/Art/Cold Rock.png" class="img-fluid">
-				<p>Coldrock was a small 3D Planet Project to create a fully procedural rocky moon.</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<h3 class="feature-title">Deserted</h3>
-				<img src="../Images/Art/Deserted.png" class="img-fluid">
-				<p>This was one of my first attempts at true photo-realism in 3D Art</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<h3 class="feature-title">Futuretire</h3>
-				<img src="../Images/Art/FutureTire.png" class="img-fluid">
-				<p>A futuristic vehicle tire / wheel, built using hard surface modeling and a lot of extra time.</p>
-			</div>
+			</div> -->
 		</div> 
 	</div>
 	<footer class="page-footer">

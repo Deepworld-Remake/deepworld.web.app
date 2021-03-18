@@ -47,7 +47,7 @@
 <body>
 	<nav class="navbar navbar-expand-md">
 		<a class="navbar-brand" href="/">
-			<img src="../Images/SCLOGOSmall.png" alt="" height="30px">
+			<img src="../Images/D.png" alt="" height="30px">
 		</a>
 		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -58,7 +58,7 @@
 					<a class="nav-link" href="../">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="../faq">FAQ</a>
+					<a class="nav-link">FAQ</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="../items">Items</a>
@@ -69,10 +69,9 @@
 	<header class="page-header header container-fluid">
 		<div class="overlay"></div>
 		<div class="description">
-			<h1>Example Page</h1>
-			<p>Example Page with no content. Nothing to see here.</p>
+			<h1>Frequently Asked Questions</h1>
+			<p>Suggest / Ask for more in the discord (Contact Page)</p>
 			<br>
-			<h6>Background Art by <a href="https://www.pexels.com/@earano">Emiliano Arano</a></h6>
 		</div>
 	</header>
 	<footer class="page-footer">

@@ -48,7 +48,7 @@
 <body>
 	<nav class="navbar navbar-expand-md">
 		<a class="navbar-brand" href="/">
-			<img src="./Images/SCLOGOSmall.png" alt="" height="30px">
+			<img src="./Images/D.png" alt="" height="30px">
 		</a>
 		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -56,7 +56,7 @@
 		<div class="collapse navbar-collapse" id="main-navigation">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" href="">Home</a>
+					<a class="nav-link" href="./">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="./faq">FAQ</a>
