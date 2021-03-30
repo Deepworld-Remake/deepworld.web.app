@@ -33,7 +33,7 @@ RewriteRule ^[\w-]+$ Pages/$0.html [L]
 RewriteCond %{DOCUMENT_ROOT}/projects-dir/Pages/$1.html -f
 RewriteRule ^projects/([\w-]+)$ projects-dir/Pages/$1.html [L]
 
-# Rewrite "https://www.mistersircode.com/..." to "https://mistersircode.com/..." if it exists
+# Rewrite "https://www.deepworld-remastered.com/..." to "https://deepworld-remastered.com/..." if it exists
 RewriteCond %{HTTP_HOST} ^www\.
-RewriteRule ^(.*)$ http://mistersircode.com/$1 [R=301,L]
+RewriteRule ^(.*)$ http://deepworld-remastered.com/$1 [R=301,L]
  
