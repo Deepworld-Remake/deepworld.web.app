@@ -68,13 +68,6 @@
 	</nav>
 	<header class="page-header header container-fluid">
 		<div class="overlay"></div>
-		<div class="description">
-			<h1>Items and Blocks</h1>
-			<p>Just things in Deepworld</p>
-			<h6>Search with Ctrl+F</h6>
-			<h6>Search In Page on mobile</h6>
-			<br>
-		</div>
 	</header>
 	<div class="container features">
 		<div class="row">
