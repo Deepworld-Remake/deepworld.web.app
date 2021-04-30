@@ -71,11 +71,11 @@
 	</nav>
 	<div class="container features">
 		<div class="row">
-			<!-- <div class="col-lg-4 col-md-4 col-sm-12">
-				<h3 class="feature-title">Fox Sketch</h3>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Item Codex</h3>
 				<img src="../Images/Art/FoxSketch.png" class="img-fluid">
 				<p>(Copyrighted) One of my first Digital Only drawings. Originally based off of a wolf, but adapted into a drawing of a fox.</p>
-			</div> -->
+			</div>
 		</div> 
 	</div>
 	<footer class="page-footer">
@@ -92,5 +92,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
 	integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
 </script>
-
+<script src="../Javascript/codex.js"></script>
 </html>
