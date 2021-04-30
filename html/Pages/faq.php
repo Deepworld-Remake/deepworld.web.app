@@ -63,6 +63,9 @@
 				<li class="nav-item">
 					<a class="nav-link" href="../codex">Codex</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../downloads">Downloads</a>
+				</li>
 			</ul>
 		</div>
 	</nav>

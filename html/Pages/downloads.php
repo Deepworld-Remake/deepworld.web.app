@@ -58,10 +58,13 @@
 					<a class="nav-link" href="../">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link">FAQ</a>
+					<a class="nav-link" href="../faq"></a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="../codex">Codex</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link">Downloads</a>
 				</li>
 			</ul>
 		</div>

@@ -63,12 +63,12 @@
 				<li class="nav-item">
 					<a class="nav-link">Codex</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../downloads">Downloads</a>
+				</li>
 			</ul>
 		</div>
 	</nav>
-	<header class="page-header header container-fluid">
-		<div class="overlay"></div>
-	</header>
 	<div class="container features">
 		<div class="row">
 			<!-- <div class="col-lg-4 col-md-4 col-sm-12">
