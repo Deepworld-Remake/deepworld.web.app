@@ -61,7 +61,7 @@
 					<a class="nav-link">FAQ</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="../items">Items</a>
+					<a class="nav-link" href="../codex">Codex</a>
 				</li>
 			</ul>
 		</div>
