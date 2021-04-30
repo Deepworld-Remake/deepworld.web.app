@@ -73,8 +73,8 @@
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<h3 class="feature-title">Item Codex</h3>
-				<img src="../Images/Art/FoxSketch.png" class="img-fluid">
-				<p>(Copyrighted) One of my first Digital Only drawings. Originally based off of a wolf, but adapted into a drawing of a fox.</p>
+				<img src="" class="img-fluid">
+				<p></p>
 			</div>
 		</div> 
 	</div>
