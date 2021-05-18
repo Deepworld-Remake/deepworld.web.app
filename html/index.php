@@ -66,7 +66,6 @@
 			The game was shutdown on August 30th, 2019 after around 7 years of development and usage</p>
 			<h6>It is currently being developed by Mister SirCode</h6>
 			<h6>If you want to see more, head to the FAQ, Items, or Contact pages above</h6>
-			<br>
 		</div>
 	</header>
 	<footer class="page-footer">

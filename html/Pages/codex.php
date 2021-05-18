@@ -62,6 +62,8 @@
 		<div class="overlay"></div>
 		<div class="description">
 			<h1>Item Codex and Deepworld Wiki</h1>
+			<p>Almost all data in this wiki is adapted from or based on the Deepworld Config and Forum Archives</p>
+			<p>Some information has been edited, added, removed and otherwise audited</p>
 		</div>
 	</header>
 	<div class="container features">

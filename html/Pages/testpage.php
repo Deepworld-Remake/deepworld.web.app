@@ -60,7 +60,6 @@
 		<div class="description">
 			<h1>Test Page</h1>
 			<p>If you find this page, you shouldnt be here :D</p>
-			<br>
 		</div>
 	</header>
 	<footer class="page-footer">

@@ -63,7 +63,6 @@
 		<div class="description">
 			<h1>Frequently Asked Questions</h1>
 			<p>Suggest / Ask for more in the discord (Contact Page)</p>
-			<br>
 		</div>
 	</header>
 	<div class="container features">

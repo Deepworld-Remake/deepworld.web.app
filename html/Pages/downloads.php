@@ -66,7 +66,6 @@
 		<div class="description">
 			<h1>Downloads, Mirrors and Installers</h1>
 			<p>Scroll down for links, operating systems, installers, and other such information</p>
-			<br>
 		</div>
 	</header>
 	<div class="container features">
