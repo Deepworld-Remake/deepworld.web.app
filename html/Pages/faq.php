@@ -79,32 +79,32 @@
 				<h3 class="feature-title">Player-Data and Anticheats?</h3>
 				<p>
 					Player and World data will be stored offline in .dwd and .dww files. Simple binary files. Anticheats are
-                	not planned at the moment, atleast for singleplayer. Multiplayer is far from ready.
+					not planned at the moment, atleast for singleplayer. Multiplayer is far from ready.
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<h3 class="feature-title">The Universe and Worlds System?</h3>
 				<p>
 					Each "Universe" is just like the original deepworld. Each Universe you join has many worlds, and each
-                	universe has a Character or Player.
-                	Every single universe you join is different. Differnt worlds, different inventories, different skills /
-                	levels, different ranks, different clothing.
-                	The only thing that is the same across universes, is your Order of the Sun AND Eye rank, your Player
-                	Name, your Leaderboard Data and your Friends List.
-                	Your "Friends List" is the disabled "Offline" tab ingame. Currently multiplayer does not function, so it
-                	doesnt do anything.
+					universe has a Character or Player.
+					Every single universe you join is different. Differnt worlds, different inventories, different skills /
+					levels, different ranks, different clothing.
+					The only thing that is the same across universes, is your Order of the Sun AND Eye rank, your Player
+					Name, your Leaderboard Data and your Friends List.
+					Your "Friends List" is the disabled "Offline" tab ingame. Currently multiplayer does not function, so it
+					doesnt do anything.
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<h3 class="feature-title">What is "The Order of the Sun"</h3>
 				<p>
-                	The "Order of the Sun" is a new order that was never implemented into the original game. Your rank in
-                	the Order of the Sun is completely dependent on your time playing the game.
-                	To enter the order of the sun (Iron), you must play the game for 2 hours straight without logging off.
-                	Dedicated. Brass? You must have 24 hours of total play time. Sapphire?
-                	At least play the game for more than a month. Ruby? 168 hours of ingame time spent playing... A week
-                	basically.
-                	Finally, Onyx? You must have played more than 6 months on deepworld. Half a year of existing. Thisll take a while.
+					The "Order of the Sun" is a new order that was never implemented into the original game. Your rank in
+					the Order of the Sun is completely dependent on your time playing the game.
+					To enter the order of the sun (Iron), you must play the game for 2 hours straight without logging off.
+					Dedicated. Brass? You must have 24 hours of total play time. Sapphire?
+					At least play the game for more than a month. Ruby? 168 hours of ingame time spent playing... A week
+					basically.
+					Finally, Onyx? You must have played more than 6 months on deepworld. Half a year of existing. Thisll take a while.
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12">
@@ -121,7 +121,7 @@
 	</div>
 	<footer class="page-footer">
 		<div class="footer-copyright text-center">Copyright © 2021</div>
-		<div class="footer-copyright text-center">Owned and Distributed by Taylor Schneider</div>
+		<div class="footer-copyright text-center">Owned and Distributed by Taylor S</div>
 	</footer>
 </body>
 <script src="../Javascript/template.js"></script>

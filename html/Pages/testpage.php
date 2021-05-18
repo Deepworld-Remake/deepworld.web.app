@@ -65,7 +65,7 @@
 	</header>
 	<footer class="page-footer">
 		<div class="footer-copyright text-center">Copyright © 2021</div>
-		<div class="footer-copyright text-center">Owned and Distributed by Taylor Schneider</div>
+		<div class="footer-copyright text-center">Owned and Distributed by Taylor S</div>
 	</footer>
 </body>
 <script src="../Javascript/template.js"></script>

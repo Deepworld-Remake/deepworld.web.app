@@ -58,6 +58,12 @@
 			</ul>
 		</div>
 	</nav>
+	<header class="page-header header container-fluid"> 
+		<div class="overlay"></div>
+		<div class="description">
+			<h1>Item Codex and Deepworld Wiki</h1>
+		</div>
+	</header>
 	<div class="container features">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12">
@@ -69,7 +75,7 @@
 	</div>
 	<footer class="page-footer">
 		<div class="footer-copyright text-center">Copyright © 2021</div>
-		<div class="footer-copyright text-center">Owned and Distributed by Taylor Schneider</div>
+		<div class="footer-copyright text-center">Owned and Distributed by Taylor S</div>
 	</footer>
 </body>
 <script src="../Javascript/template.js"></script>
