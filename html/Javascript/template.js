@@ -14,7 +14,7 @@ function loadWebLinks(element, socket, currentPage) {
         listElement.classList.add("nav-item");
         const linkElement = document.createElement("a");
         linkElement.classList.add("nav-link");
-        if (Object.keys(weblinks)[i] != currentPage)
+        if (Object.keys(webLinks)[i] != currentPage)
             linkElement.href = socket + currentWebLink[0];
         linkElement.innerText = currentWebLink[1];
         listElement.appendChild(linkElement);
