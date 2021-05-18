@@ -42,6 +42,7 @@
 	<style>
 		.features h4 {
 			color: var(--text-color);
+			filter: brightness(80%);
 		}
 	</style>
 </head>
