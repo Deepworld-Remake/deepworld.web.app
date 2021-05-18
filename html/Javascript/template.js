@@ -4,10 +4,10 @@ const webLinks = {
     "codex": ["/codex", "Codex"],
     "downloads": ["/downloads", "Downloads"],
     "server": ["/server", "Private Server"]
-}
+};
 
 function loadWebLinks(element, socket, currentPage) {
-    for (var i = 0; i < Object.keys(webLinks); ++i) {
+    for (var i = 0; i < Object.keys(webLinks).length; ++i) {
         const currentWebLink = webLinks[Object.keys(webLinks)[i]];
         console.log(currentWebLink);
         const listElement = document.createElement("li");
