@@ -54,18 +54,7 @@
 		</button>
 		<div class="collapse navbar-collapse" id="main-navigation">
 			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="../">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="../faq">FAQ</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link">Codex</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="../downloads">Downloads</a>
-				</li>
+				<!-- URL Paths will be generated here -->
 			</ul>
 		</div>
 	</nav>
@@ -83,6 +72,10 @@
 		<div class="footer-copyright text-center">Owned and Distributed by Taylor Schneider</div>
 	</footer>
 </body>
+<script src="../Javascript/template.js"></script>
+<script>
+	loadWebLinks(".navbar-nav", "..", "codex");
+</script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
 </script>
