@@ -38,12 +38,12 @@
 	<meta property="twitter:image" content="../Images/D.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="../Stylesheets/index.css">
 	<style>
-		h4 {
-			color: white;
+		.features h4 {
+			color: var(--text-color);
 		}
 	</style>
-	<link rel="stylesheet" href="../Stylesheets/index.css">
 </head>
 
 <body>
