@@ -20,21 +20,21 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="../Icons/favicon-16x16.png">
 
 	<!-- Primary Meta Tags -->
-	<title>Frequently Asked Questions</title>
-	<meta name="title" content="Example Page">
-	<meta name="description" content="Main website for my Projects and Portfolio">
+	<title>Game Downloads</title>
+	<meta name="title" content="Game Downloads">
+	<meta name="description" content="Downloads and archived binaries for Deepworld Remastered">
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Example Page">
-	<meta property="og:description" content="Main website for my Projects and Portfolio">
+	<meta property="og:title" content="Game Downloads">
+	<meta property="og:description" content="Downloads and archived binaries for Deepworld Remastered">
 	<meta property="og:image" content="../Images/D.png">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:title" content="Example Page">
-	<meta property="twitter:description" content="Main website for my Projects and Portfolio">
+	<meta property="twitter:title" content="Game Downloads">
+	<meta property="twitter:description" content="Downloads and archived binaries for Deepworld Remastered">
 	<meta property="twitter:image" content="../Images/D.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
