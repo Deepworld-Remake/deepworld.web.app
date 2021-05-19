@@ -149,9 +149,10 @@ body * {
 }
 
 .item-image {
-	width: 1.3em;
-	height: 1.3em;
+	width: 1.6em;
+	height: 1.6em;
 	margin: 0 1em 0 0 !important;
+	box-shadow: 0 !important;
 }
 
 @media (max-width: 575.98px) {

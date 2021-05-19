@@ -30,9 +30,10 @@ function loadItemData() {
                 const contentImg = document.createElement("img");
                 contentImg.classList.add("item-image");
                 contentImg.src = spriteURL + currentKey + ".png";
-                contentImg.addEventListener("error", () => {
-                    contentImg.src = spriteURL + "none.png";
-                })
+                contentImg.onload = function() {
+                    if (!contentImg.complete)
+                        contentImg.src = spriteURL + "none.png";
+                }
                 contentElm.appendChild(contentImg);
                 contentElm.innerHTML += currentKey;
                 rowElm.appendChild(contentElm);
