@@ -68,11 +68,6 @@
 	</header>
 	<div class="container features">
 		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<h3 class="feature-title">Item Codex</h3>
-				<img src="" class="img-fluid">
-				<p></p>
-			</div>
 		</div> 
 	</div>
 	<footer class="page-footer">
