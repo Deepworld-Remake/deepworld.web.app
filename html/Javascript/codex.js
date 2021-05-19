@@ -31,8 +31,11 @@ function loadItemData() {
                 contentImg.classList.add("item-image");
                 contentImg.src = spriteURL + currentKey + ".png";
                 contentImg.onload = function() {
-                    if (!contentImg.complete)
+                    console.log("loaded");
+                    if (!contentImg.complete) {
+                        console.log("incomplete");
                         contentImg.src = spriteURL + "none.png";
+                    }
                 }
                 contentElm.appendChild(contentImg);
                 contentElm.innerHTML += currentKey;
