@@ -33,7 +33,7 @@ function loadItemData() {
                 const contentImg = document.createElement("img");
                 contentImg.classList.add("item-image");
                 if (imageExists(spriteURL + currentKey)) {
-                    contentImg.src = spriteURL + currentKey;
+                    contentImg.src = spriteURL + currentKey + ".png";
                 }
                 contentElm.appendChild(contentImg);
                 contentElm.innerText = currentKey;
