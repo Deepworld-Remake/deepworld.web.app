@@ -11,12 +11,12 @@ function loadItemData() {
         titleElm.innerText = "Items and Collectibles";
         rowElm.appendChild(titleElm);
         const contentElm = document.createElement("p");
-        let itemText;
+        let itemText = "";
         for (let i = 0; i < Object.keys(json.items).length; ++i) {
             const currentKey = Object.keys(json.items)[i];
             const currentItem = json.items[currentKey];
             if (currentItem.title) {
-                // itemText += currentItem.title + '\n';
+                itemText += currentItem.title + '\n';
                 console.log(currentItem.title);
             }
         }
