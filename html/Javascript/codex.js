@@ -16,7 +16,7 @@ function loadItemData() {
             const currentKey = Object.keys(json.items)[i];
             const currentItem = json.items[currentKey];
             if (currentItem.title) {
-                itemText += currentItem.title + '\n';
+                // itemText += currentItem.title + '\n';
                 console.log(currentItem.title);
             }
         }
