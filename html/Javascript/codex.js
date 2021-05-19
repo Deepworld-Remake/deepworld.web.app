@@ -1,4 +1,4 @@
-const spriteURL = "https://cdn.jsdelivr.net/gh/Deepworld-Remake/Deepworld-Source-Assets@tree/master/Deepworld%20Sprites/inventory/";
+const spriteURL = "https://cdn.jsdelivr.net/gh/Deepworld-Remake/Deepworld-Source-Assets@master/Deepworld%20Sprites/inventory/";
 
 function imageExists(url) {
     var img = new Image();
