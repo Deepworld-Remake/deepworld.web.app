@@ -21,20 +21,20 @@
 
 	<!-- Primary Meta Tags -->
 	<title>SirCodes Art</title>
-	<meta name="title" content="Mister SirCodes Homepage">
-	<meta name="description" content="Main website for my Projects and Portfolio">
+	<meta name="title" content="Deepworld Remastered Codex">
+	<meta name="description" content="The new wiki / codex for Deepworld and Deepworld Remastered. WIP">
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Mister SirCodes Homepage">
-	<meta property="og:description" content="Main website for my Projects and Portfolio">
+	<meta property="og:title" content="Deepworld Remastered Codex">
+	<meta property="og:description" content="The new wiki / codex for Deepworld and Deepworld Remastered. WIP">
 	<meta property="og:image" content="../Images/D.png">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:title" content="Mister SirCodes Homepage">
-	<meta property="twitter:description" content="Main website for my Projects and Portfolio">
+	<meta property="twitter:title" content="Deepworld Remastered Codex">
+	<meta property="twitter:description" content="The new wiki / codex for Deepworld and Deepworld Remastered. WIP">
 	<meta property="twitter:image" content="../Images/D.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
