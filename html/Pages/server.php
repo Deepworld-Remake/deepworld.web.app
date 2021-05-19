@@ -71,24 +71,27 @@
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<h3 class="feature-title">What is this about?</h3>
 				<p>
-                This is private server software, meaning that it connects alongside the original game.
-				Essentially, youll be able to play and interact with the game again, without using entirely new software.
-				Its very WIP at the moment.
+					This is private server software, meaning that it connects alongside the original game.
+					Essentially, youll be able to play and interact with the game again, without using entirely new software.
+					Its very WIP at the moment.
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<h3 class="feature-title">Connecting via PC?</h3>
 				<p>
-                If you want to connect to via Windows 7 / 8 / 10, first, download this DLL: 
-				<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Custom/Assembly-CSharp.dll">Assembly-CSharp.dll</a><br>
-				This DLL is used by deepworld to attach a custom API and Gateway. (My server) <br>
-				If you want to use a custom server IP and Port, download the Universal DLL: 
-				<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Universal/Assembly-CSharp.dll">Assembly-CSharp.dll (Universal)</a><br>
-				After you've downloaded that, you'll need to download and edit this registry script:
-				<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Universal/Registry Script.reg">Registry Script.reg (Universal)</a><br>
-				Edit the file in a text editor, replace the IP and Port with a custom server address, then run the script. Simple as that. <br><br>
-				<b>After you've downloaded either DLL above:</b> Go to your installation of deepworld, go into the <b>Deepworld_Data\Managed</b> folder, and replace Assembly-CSharp.dll with the one you downloaded. <br>
-				The next time you run deepworld, it should take effect. For custom servers, it will only work if you have a valid IP and Port.
+					<h4>Want to connect to my server?</h4>
+					Download this DLL:
+					<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Custom/Assembly-CSharp.dll">Assembly-CSharp.dll</a><br>
+					This DLL is used by deepworld to attach a custom API and Gateway. (My server) <br><br>
+					<h4>Want to connect to a custom server?</h4>
+					You'll want to download this DLL:
+					<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Universal/Assembly-CSharp.dll">Assembly-CSharp.dll (Universal)</a><br>
+					After you've downloaded that, you'll need to download and edit this registry script:
+					<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Universal/Registry Script.reg">Registry Script.reg (Universal)</a><br>
+					Edit the file in a text editor, replace the IP and Port with a custom server address, then run the script. Simple as that. This will only work with custom servers.<br><br>
+					<h4>Using the DLL(s)?</h4>
+					<b>After you've downloaded either DLL above:</b> Go to your installation of deepworld, go into the <b>Deepworld_Data\Managed</b> folder, and replace Assembly-CSharp.dll with the one you downloaded. <br>
+					The next time you run deepworld, it should take effect. For custom servers, it will only work if you have a valid IP and Port.
 				</p>
 			</div>
 		</div> 
