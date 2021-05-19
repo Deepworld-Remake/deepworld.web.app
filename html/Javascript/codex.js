@@ -5,7 +5,7 @@ function loadItemData() {
         const text = e.target.responseText;
         const json = JSON.parse(text);
         const rowElm = document.createElement("div");
-        rowElm.classList.add("col-lg-4 col-md-4 col-sm-12");
+        rowElm.classList.add("col-lg-4", "col-md-4", "col-sm-12");
         const titleElm = document.createElement("h1");
         titleElm.classList.add("feature-title");
         titleElm.innerText = "Items and Collectibles";
