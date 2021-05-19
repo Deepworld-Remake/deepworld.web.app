@@ -32,7 +32,7 @@ function loadItemData() {
                 const contentElm = document.createElement("p");
                 const contentImg = document.createElement("img");
                 contentImg.classList.add("item-image");
-                if (imageExists(spriteURL + currentKey)) {
+                if (imageExists(spriteURL + currentKey + ".png")) {
                     contentImg.src = spriteURL + currentKey + ".png";
                 }
                 contentElm.appendChild(contentImg);
