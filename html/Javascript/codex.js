@@ -1,20 +1,5 @@
 const spriteURL = "https://cdn.jsdelivr.net/gh/Deepworld-Remake/Deepworld-Source-Assets@master/Deepworld%20Sprites/inventory/";
 
-function imageExists(url, callback) {
-    const img = new Image();
-    img.src = url;
-    if (img.complete) {
-        callback(true);
-    } else {
-        img.onload = () => {
-            callback(true);
-        };
-        img.onerror = () => {
-            callback(false);
-        };
-    }
-}
-
 function loadItemData() {
     const xhr = new XMLHttpRequest();
     xhr.addEventListener("load", (e) => {
@@ -34,10 +19,10 @@ function loadItemData() {
                 const contentElm = document.createElement("p");
                 const contentImg = document.createElement("img");
                 contentImg.classList.add("item-image");
-                imageExists(spriteURL + currentKey + ".png", (exists) => {
-                    if (exists)
-                    contentImg.src = spriteURL + currentKey + ".png";
-                });
+                contentImg.src = spriteURL + currentKey + ".png";
+                contentImg.addEventListener("error", () => {
+                    contentImg.src = spriteURL + "none.png";
+                })
                 contentElm.appendChild(contentImg);
                 contentElm.innerText = currentKey;
                 rowElm.appendChild(contentElm);
