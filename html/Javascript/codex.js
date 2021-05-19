@@ -24,7 +24,7 @@ function loadItemData() {
                     contentImg.src = spriteURL + "none.png";
                 })
                 contentElm.appendChild(contentImg);
-                contentElm.innerText = currentKey;
+                contentElm.innerHTML += " " + currentKey;
                 rowElm.appendChild(contentElm);
             }
         }
