@@ -1,16 +1,18 @@
 const spriteURL = "https://cdn.jsdelivr.net/gh/Deepworld-Remake/Deepworld-Source-Assets@master/Deepworld%20Sprites/inventory/";
 
 function imageExists(url) {
-    var img = new Image();
-    img.onload = function() { 
-        img = null; 
-        return true;
-    };
-    img.onerror = function() {
-        img = null;
+    try {
+        var img = new Image();
+        img.onload = function() {
+            return true;
+        }
+        img.onerror = function() {
+            return false;
+        }
+        img.src = url;
+    } catch(e) {
         return false;
-    };
-    img.src = url;
+    }
 }
 
 function loadItemData() {
