@@ -151,8 +151,7 @@ body * {
 .item-image {
 	width: 1em;
 	height: 1em;
-	margin: 0 !important;
-	margin-right: 1em;
+	margin: 0 1em 0 0 !important;
 }
 
 @media (max-width: 575.98px) {
