@@ -20,7 +20,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="../Icons/favicon-16x16.png">
 
 	<!-- Primary Meta Tags -->
-	<title>SirCodes Art</title>
+	<title>Deepworld Codex</title>
 	<meta name="title" content="Deepworld Remastered Codex">
 	<meta name="description" content="The new wiki / codex for Deepworld and Deepworld Remastered. WIP">
 	<meta name="theme-color" content="#ffffff">

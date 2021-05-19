@@ -20,24 +20,27 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="../Icons/favicon-16x16.png">
 
 	<!-- Primary Meta Tags -->
-	<title>Example Page</title>
-	<meta name="title" content="Example Page">
-	<meta name="description" content="">
+	<title>Deepworld Server</title>
+	<meta name="title" content="Deepworld Private Server">
+	<meta name="description" content="A WIP private server which runs alongside the original version of deepworld">
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Example Page">
-	<meta property="og:description" content="">
+	<meta property="og:title" content="Deepworld Private Server">
+	<meta property="og:description" content="A WIP private server which runs alongside the original version of deepworld">
 	<meta property="og:image" content="../Images/D.png">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:title" content="Example Page">
-	<meta property="twitter:description" content="">
+	<meta property="twitter:title" content="Deepworld Private Server">
+	<meta property="twitter:description" content="A WIP private server which runs alongside the original version of deepworld">
 	<meta property="twitter:image" content="../Images/D.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<style>
+
+	</style>
 	<link rel="stylesheet" href="../Stylesheets/index.css">
 </head>
 
@@ -55,13 +58,18 @@
 			</ul>
 		</div>
 	</nav>
-	<header class="page-header header container-fluid">
+	<header class="page-header header container-fluid"> 
 		<div class="overlay"></div>
 		<div class="description">
-			<h1>Test Page</h1>
-			<p>If you find this page, you shouldnt be here :D</p>
+			<h1>Deepworld Private Server</h1>
+			<p>A Work in Progress Private Server for the original Deepworld game</p>
+			<p>"Brainwine" server software developed by Dennis, Hosted and Maintained by SirCode</p>
 		</div>
 	</header>
+	<div class="container features">
+		<div class="row">
+		</div> 
+	</div>
 	<footer class="page-footer">
 		<div class="footer-copyright text-center">Copyright © 2021</div>
 		<div class="footer-copyright text-center">Owned and Distributed by Taylor S</div>
@@ -69,7 +77,7 @@
 </body>
 <script src="../Javascript/template.js"></script>
 <script>
-	loadWebLinks(".navbar-nav", "..", "codex");
+	loadWebLinks(".navbar-nav", "..", "server");
 </script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -80,5 +88,4 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
 	integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
 </script>
-
 </html>
