@@ -1,3 +1,16 @@
+function imageExists(url) {
+    var img = new Image();
+    img.onload = function() { 
+        img = null; 
+        return true;
+    };
+    img.onerror = function() {
+        img = null;
+        return false;
+    };
+    img.src = url;
+}
+
 function loadItemData() {
     const xhr = new XMLHttpRequest();
     xhr.addEventListener("load", (e) => {
@@ -17,7 +30,9 @@ function loadItemData() {
                 const contentElm = document.createElement("p");
                 const contentImg = document.createElement("img");
                 contentImg.classList.add("item-image");
-                contentImg.src = "https://cdn.jsdelivr.net/gh/Deepworld-Remake/Deepworld-Source-Assets@tree/master/Deepworld%20Sprites/" + currentKey;
+                if (imageExists("https://cdn.jsdelivr.net/gh/Deepworld-Remake/Deepworld-Source-Assets@tree/master/Deepworld%20Sprites/" + currentKey)) {
+                    contentImg.src = "https://cdn.jsdelivr.net/gh/Deepworld-Remake/Deepworld-Source-Assets@tree/master/Deepworld%20Sprites/" + currentKey;
+                }
                 contentElm.appendChild(contentImg);
                 contentElm.innerText = currentKey;
                 rowElm.appendChild(contentElm);
