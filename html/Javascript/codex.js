@@ -11,6 +11,7 @@ function loadItemData() {
         titleElm.innerText = "Items and Collectibles";
         rowElm.appendChild(titleElm);
         const contentElm = document.createElement("p");
+        console.log(Object.keys(json).length);
         for (let i = 0; i < Object.keys(json).length; ++i) {
             const currentKey = Object.keys(json)[i];
             const currentItem = json[currentKey];
