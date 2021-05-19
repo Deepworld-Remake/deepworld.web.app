@@ -34,7 +34,7 @@ function loadItemData() {
                     contentImg.src = spriteURL + "none.png";
                 })
                 contentElm.appendChild(contentImg);
-                contentElm.innerHTML += " " + currentKey;
+                contentElm.innerHTML += currentKey;
                 rowElm.appendChild(contentElm);
             }
         }
