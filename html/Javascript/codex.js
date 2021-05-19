@@ -10,17 +10,19 @@ function loadItemData() {
         titleElm.classList.add("feature-title");
         titleElm.innerText = "Items and Collectibles";
         rowElm.appendChild(titleElm);
-        const contentElm = document.createElement("p");
-        let itemText = "";
         for (let i = 0; i < Object.keys(json.items).length; ++i) {
             const currentKey = Object.keys(json.items)[i];
             const currentItem = json.items[currentKey];
             if (currentItem.code) {
-                itemText += currentKey + '\n';
+                const contentElm = document.createElement("p");
+                const contentImg = document.createElement("img");
+                contentImg.classList.add("item-image");
+                contentImg.src = "https://cdn.jsdelivr.net/gh/Deepworld-Remake/Deepworld-Source-Assets@tree/master/Deepworld%20Sprites/" + currentKey;
+                contentElm.appendChild(contentImg);
+                contentElm.innerText = currentKey;
+                rowElm.appendChild(contentElm);
             }
         }
-        contentElm.innerText = itemText;
-        rowElm.appendChild(contentElm);
         document.querySelector(".row").appendChild(rowElm);
     });
     xhr.overrideMimeType("text/plain");
