@@ -15,9 +15,10 @@ function loadItemData() {
         for (let i = 0; i < Object.keys(json.items).length; ++i) {
             const currentKey = Object.keys(json.items)[i];
             const currentItem = json.items[currentKey];
-            if (currentItem.title)
+            if (currentItem.title) {
                 itemText += currentItem.title + '\n';
-            console.log(currentItem.title);
+                console.log(currentItem.title);
+            }
         }
         contentElm.innerText = itemText;
         rowElm.appendChild(contentElm);
