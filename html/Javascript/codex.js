@@ -28,6 +28,7 @@ function loadItemData() {
                 rowElm.appendChild(contentElm);
             }
         }
+        console.clear();
         document.querySelector(".row").appendChild(rowElm);
     });
     xhr.overrideMimeType("text/plain");
