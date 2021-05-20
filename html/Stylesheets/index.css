@@ -155,10 +155,13 @@ body * {
 	box-shadow: none !important;
 }
 
-.item-image {
+.item-object > .item-image {
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+.item-image {
 	width: 2em;
 	height: 2em;
 	box-shadow: none !important;
