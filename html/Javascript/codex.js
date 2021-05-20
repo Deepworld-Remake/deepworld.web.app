@@ -10,6 +10,13 @@ function clearConsole() {
     }
 }
 
+function imageExists(url) {
+    var http = new XMLHttpRequest();
+    http.open('HEAD', url, false);
+    http.send();
+    return http.status == 200;
+}
+
 function loadItemData() {
     const xhr = new XMLHttpRequest();
     xhr.addEventListener("load", (e) => {
@@ -27,17 +34,12 @@ function loadItemData() {
             const currentItem = json.items[currentKey];
             if (currentItem.code) {
                 const contentElm = document.createElement("p");
-                const contentImg = document.createElement("img");
-                contentImg.classList.add("item-image");
-                contentImg.src = spriteURL + currentKey + ".png";
-                contentImg.onload = function() {
-                    console.log("loaded");
-                    if (!contentImg.complete) {
-                        console.log("incomplete");
-                        contentImg.src = spriteURL + "none.png";
-                    }
+                if (imageExists(spriteURL + currentKey + ".png")) {
+                    const contentImg = document.createElement("img");
+                    contentImg.classList.add("item-image");
+                    contentImg.src = spriteURL + currentKey + ".png";
+                    contentElm.appendChild(contentImg);
                 }
-                contentElm.appendChild(contentImg);
                 contentElm.innerHTML += currentKey;
                 rowElm.appendChild(contentElm);
             }
