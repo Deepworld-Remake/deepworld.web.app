@@ -29,9 +29,10 @@ function loadItemData() {
         titleElm.classList.add("feature-title");
         titleElm.innerText = "Items and Collectibles";
         rowElm.appendChild(titleElm);
-        for (let i = 0; i < 100; ++i) {
+        for (let i = 0; i < 10; ++i) {
             const currentKey = Object.keys(json.items)[i];
             const currentItem = json.items[currentKey];
+            console.log(currentItem, currentItem.code || "NOCODE", currentItem.title || "NOTITLE");
             if (currentItem.code && currentItem.title) {
                 const contentElm = document.createElement("p");
                 const contentImg = document.createElement("img");
