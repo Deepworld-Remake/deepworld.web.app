@@ -38,7 +38,10 @@ function loadItemData() {
                 const contentElm = document.createElement("p");
                 const contentImg = document.createElement("img");
                 contentImg.classList.add("item-image");
-                contentImg.src = spriteURL + (currentItem.sprite ? (typeof currentItem.sprite == "object" ? currentItem.sprite[0] : currentItem.sprite) : currentKey) + ".png";
+                contentImg.src = spriteURL + (currentItem.inventory ? 
+                    currentItem.inventory : (currentItem.sprite ? 
+                    (typeof currentItem.sprite == "object" ? 
+                    currentItem.sprite[0] : currentItem.sprite) : currentKey)) + ".png";
                 contentElm.appendChild(contentImg);
                 contentElm.innerHTML += currentKey;
                 rowElm.appendChild(contentElm);
