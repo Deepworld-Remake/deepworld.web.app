@@ -31,7 +31,7 @@ function loadItemData() {
         titleElm.classList.add("feature-title");
         titleElm.innerText = "Items and Collectibles";
         rowElm.appendChild(titleElm);
-        for (let i = 0; i < 100; ++i) {
+        for (let i = 0; i < Object.keys(json.items).length; ++i) {
             const currentKey = Object.keys(json.items)[i];
             const currentItem = json.items[currentKey];
             if (currentItem.code && (currentItem.gui ? currentItem.gui : true)) {
