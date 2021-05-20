@@ -36,10 +36,13 @@ function loadItemData() {
             const currentItem = json.items[currentKey];
             if (currentItem.code && (currentItem.gui ? currentItem.gui : true)) {
                 const contentElm = document.createElement("p");
-                const contentImg = document.createElement("img");
+                const contentImg = document.createElement("object");
+                const contentNoneImg = document.createElement("img");
                 contentImg.classList.add("item-image");
-                contentImg.src = spriteURL + (currentItem.inventory ? currentItem.inventory : currentKey) + ".png";
-                contentImg.alt = spriteURL + "none.png";
+                contentNoneImg.classList.add("item-image");
+                contentImg.data = spriteURL + (currentItem.inventory ? currentItem.inventory : currentKey) + ".png";
+                contentNoneImg.src = spriteURL + "none.png";
+                contentImg.appendChild(contentNoneImg);
                 contentElm.appendChild(contentImg);
                 contentElm.innerHTML += currentKey;
                 rowElm.appendChild(contentElm);
