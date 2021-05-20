@@ -153,12 +153,14 @@ body * {
 	height: 2em;
 	margin: 0 0.5em 0 0 !important;
 	box-shadow: none !important;
+	object-fit: scale-down;
 }
 
 .item-image {
 	width: 2em;
 	height: 2em;
 	box-shadow: none !important;
+	object-fit: scale-down;
 }
 
 .item-title {
