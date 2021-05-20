@@ -39,7 +39,7 @@ function loadItemData() {
                 const contentImg = document.createElement("object");
                 const contentNoneImg = document.createElement("img");
                 const contentTitle = document.createElement("a");
-                contentImg.classList.add("item-image");
+                contentImg.classList.add("item-object");
                 contentNoneImg.classList.add("item-image");
                 contentImg.data = spriteURL + (currentItem.inventory ? currentItem.inventory : currentKey) + ".png";
                 contentNoneImg.src = spriteURL + "none.png";
