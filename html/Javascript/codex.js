@@ -38,13 +38,16 @@ function loadItemData() {
                 const contentElm = document.createElement("p");
                 const contentImg = document.createElement("object");
                 const contentNoneImg = document.createElement("img");
+                const contentTitle = document.createElement("a");
                 contentImg.classList.add("item-image");
                 contentNoneImg.classList.add("item-image");
                 contentImg.data = spriteURL + (currentItem.inventory ? currentItem.inventory : currentKey) + ".png";
                 contentNoneImg.src = spriteURL + "none.png";
                 contentImg.appendChild(contentNoneImg);
                 contentElm.appendChild(contentImg);
-                contentElm.innerHTML += currentKey;
+                contentTitle.innerText += currentKey;
+                contentTitle.classList.add("item-title");
+                contentElm.appendChild(contentTitle);
                 rowElm.appendChild(contentElm);
             }
         }
