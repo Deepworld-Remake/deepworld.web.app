@@ -33,7 +33,7 @@ function loadItemData() {
             const currentKey = Object.keys(json.items)[i];
             const currentItem = json.items[currentKey];
             console.log(currentItem, currentItem.code || "NOCODE", currentItem.title || "NOTITLE");
-            if (currentItem.code && currentItem.title && (currentItem.gui ? (currentItem.gui == true ? true : false) : false)) {
+            if (currentItem.code && (currentItem.gui ? (currentItem.gui == true ? true : false) : true)) {
                 const contentElm = document.createElement("p");
                 const contentImg = document.createElement("img");
                 contentImg.classList.add("item-image");
