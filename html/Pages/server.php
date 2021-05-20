@@ -80,13 +80,13 @@
 				<h3 class="feature-title">Connecting via PC?</h3>
 				<span>
 					<h4>Want to connect to my server?</h4>
-					Download this DLL:
+					Download this DLL: <br>
 					<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Custom/Assembly-CSharp.dll">Assembly-CSharp.dll</a><br>
 					This DLL is used by deepworld to attach a custom API and Gateway. (My server) <br><br>
 					<h4>Want to connect to a custom server?</h4>
-					You'll want to download this DLL:
+					You'll want to download this DLL: <br>
 					<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Universal/Assembly-CSharp.dll">Assembly-CSharp.dll (Universal)</a><br>
-					After you've downloaded that, you'll need to download and edit this registry script:
+					After you've downloaded that, you'll need to download and edit this registry script: <br>
 					<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Universal/Registry Script.reg">Registry Script.reg (Universal)</a><br>
 					Edit the file in a text editor, replace the IP and Port with a custom server address, then run the script. Simple as that. 
 					This will only work with custom servers.<br><br>
