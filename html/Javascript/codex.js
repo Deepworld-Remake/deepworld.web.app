@@ -32,7 +32,10 @@ function loadItemData() {
         for (let i = 0; i < 100; ++i) {
             const currentKey = Object.keys(json.items)[i];
             const currentItem = json.items[currentKey];
-            if (currentItem.gui) continue;
+            if (currentItem.gui && currentItem.gui == false) {
+                console.log(currentItem);
+                continue;
+            }
             if (currentItem.code) {
                 const contentElm = document.createElement("p");
                 const contentImg = document.createElement("img");
