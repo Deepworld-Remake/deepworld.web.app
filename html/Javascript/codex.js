@@ -44,9 +44,6 @@ function loadItemData() {
             }
         }
         document.querySelector(".row").appendChild(rowElm);
-        setTimeout(() => {
-            clearConsole();
-        }, 1000);
     });
     xhr.overrideMimeType("text/plain");
     xhr.open("GET", "https://cdn.jsdelivr.net/gh/Deepworld-Remake/deepworld-config-json@master/config-items.json");
