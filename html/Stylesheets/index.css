@@ -163,7 +163,7 @@ body * {
 
 .item-title {
 	position: relative;
-	top: -1em;
+	top: -0.5em;
 }
 
 @media (max-width: 575.98px) {
