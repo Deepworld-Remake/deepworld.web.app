@@ -162,7 +162,8 @@ body * {
 }
 
 .item-title {
-	line-height: -1em;
+	position: relative;
+	top: -1em;
 }
 
 @media (max-width: 575.98px) {
