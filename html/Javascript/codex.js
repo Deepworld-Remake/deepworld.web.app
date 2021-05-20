@@ -35,12 +35,10 @@ function loadItemData() {
             if (currentItem.gui) continue;
             if (currentItem.code) {
                 const contentElm = document.createElement("p");
-                if (imageExists(spriteURL + currentKey + ".png")) {
-                    const contentImg = document.createElement("img");
-                    contentImg.classList.add("item-image");
-                    contentImg.src = spriteURL + currentKey + ".png";
-                    contentElm.appendChild(contentImg);
-                }
+                const contentImg = document.createElement("img");
+                contentImg.classList.add("item-image");
+                contentImg.src = spriteURL + currentKey + ".png";
+                contentElm.appendChild(contentImg);
                 contentElm.innerHTML += currentKey;
                 rowElm.appendChild(contentElm);
             }
