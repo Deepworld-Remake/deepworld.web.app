@@ -42,6 +42,7 @@ function loadItemData() {
                     currentItem.inventory : (currentItem.sprite ? 
                     (typeof currentItem.sprite == "object" ? 
                     currentItem.sprite[0] : currentItem.sprite) : currentKey)) + ".png";
+                contentImg.alt = spriteURL + "none.png";
                 contentElm.appendChild(contentImg);
                 contentElm.innerHTML += currentKey;
                 rowElm.appendChild(contentElm);
