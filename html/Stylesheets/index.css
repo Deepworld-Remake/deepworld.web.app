@@ -144,7 +144,7 @@ body * {
 	text-align: center;
 }
 
-.features p {
+.features p, .features span {
     color: var(--text-color);
 }
 

@@ -78,7 +78,9 @@
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<h3 class="feature-title">Connecting via PC?</h3>
-					<!-- Download this DLL:
+				<span>
+					<h4>Want to connect to my server?</h4>
+					Download this DLL:
 					<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Custom/Assembly-CSharp.dll">Assembly-CSharp.dll</a><br>
 					This DLL is used by deepworld to attach a custom API and Gateway. (My server) <br><br>
 					<h4>Want to connect to a custom server?</h4>
@@ -91,10 +93,8 @@
 					<h4>Using the DLL(s)?</h4>
 					<b>After you've downloaded either DLL above:</b> Go to your installation of deepworld, go into the <b>Deepworld_Data\Managed</b> folder,
 					and replace Assembly-CSharp.dll with the one you downloaded. <br>
-					The next time you run deepworld, it should take effect. For custom servers, it will only work if you have a valid IP and Port. -->
-				<p>
-					<h4>Want to connect to my server?</h4>
-				</p>
+					The next time you run deepworld, it should take effect. For custom servers, it will only work if you have a valid IP and Port.
+				</span>
 			</div>
 		</div> 
 	</div>
