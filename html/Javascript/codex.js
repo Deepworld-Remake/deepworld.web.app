@@ -1,4 +1,5 @@
 const spriteURL = "https://cdn.jsdelivr.net/gh/Deepworld-Remake/Deepworld-Source-Assets@master/Deepworld%20Sprites/inventory/";
+let itemDataCache;
 
 function clearConsole() {
     if (console._commandLineAPI && console._commandLineAPI.clear) {
@@ -23,6 +24,7 @@ function loadItemData() {
         console.log(e);
         const text = e.target.responseText;
         const json = JSON.parse(text);
+        itemDataCache = json;
         const rowElm = document.createElement("div");
         rowElm.classList.add("col-lg-4", "col-md-4", "col-sm-12");
         const titleElm = document.createElement("h1");
@@ -32,12 +34,11 @@ function loadItemData() {
         for (let i = 0; i < 100; ++i) {
             const currentKey = Object.keys(json.items)[i];
             const currentItem = json.items[currentKey];
-            console.log(currentItem, currentItem.code || "NOCODE", currentItem.title || "NOTITLE");
             if (currentItem.code && (currentItem.gui ? currentItem.gui : true)) {
                 const contentElm = document.createElement("p");
                 const contentImg = document.createElement("img");
                 contentImg.classList.add("item-image");
-                contentImg.src = spriteURL + (currentItem.sprite ? currentItem.sprite : currentKey) + ".png";
+                contentImg.src = spriteURL + (currentItem.sprite ? (typeof currentItem.sprite == "object" ? currentItem.sprite[0] : currentItem.sprite) : currentKey) + ".png";
                 contentElm.appendChild(contentImg);
                 contentElm.innerHTML += currentKey;
                 rowElm.appendChild(contentElm);
