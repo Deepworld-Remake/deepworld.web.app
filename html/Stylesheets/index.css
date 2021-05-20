@@ -155,12 +155,6 @@ body * {
 	box-shadow: none !important;
 }
 
-.item-object > .item-image {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
 .item-image {
 	width: 2em;
 	height: 2em;
