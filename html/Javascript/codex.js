@@ -32,15 +32,11 @@ function loadItemData() {
         for (let i = 0; i < 100; ++i) {
             const currentKey = Object.keys(json.items)[i];
             const currentItem = json.items[currentKey];
-            if (currentItem.gui && currentItem.gui == false) {
-                console.log(currentItem);
-                continue;
-            }
-            if (currentItem.code) {
+            if (currentItem.code && currentItem.title) {
                 const contentElm = document.createElement("p");
                 const contentImg = document.createElement("img");
                 contentImg.classList.add("item-image");
-                contentImg.src = spriteURL + currentKey + ".png";
+                contentImg.src = spriteURL + (currentItem.sprite ? currentItem.sprite : currentKey) + ".png";
                 contentElm.appendChild(contentImg);
                 contentElm.innerHTML += currentKey;
                 rowElm.appendChild(contentElm);
