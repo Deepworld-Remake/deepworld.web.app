@@ -68,10 +68,27 @@
 	<div class="container features">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">The heck? Deepworlds being remade?!</h3>
+				<p>
+                Youre probably new here. Probably sent here via a website or via discord. If so, heres all you need to know; Deepworld Remastered is a remake of deepworld.
+				It is <b>NOT</b> a replacement. The purpose of it is to rebuild the entire source of the game, without a source,
+				so that it may be maintained and kept supported for years to come.
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Whos working on this? Any others?</h3>
+				<p>
+                Deepworld Remastered is worked on by me (SirCode), and I've made decent progress over the last year.
+				More information on Deepworld Remastered can be found on the <a href="../server">Downloads Page</a>
+				The Deepworld Private Server (Called Brainwine) was created and is worked on by Dennis, and the game is already playable and has complete multiplayer support.
+				More information on the Private Server can be found on the <a href="../server">Private Server Page</a>
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
 				<h3 class="feature-title">Offline Mode? Multiplayer?</h3>
 				<p>
                 Deepworld Remastered will start off offline. The game will proceed in development until it is stable.
-                Once that is achieved, dedicated servers will be considered.
+                Once that is achieved, multiplayer and dedicated servers will be considered.
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12">

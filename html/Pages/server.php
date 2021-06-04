@@ -63,7 +63,8 @@
 		<div class="description">
 			<h1>Deepworld Private Server</h1>
 			<p>A Work in Progress Private Server for the original Deepworld game</p>
-			<p>"Brainwine" server software developed by Dennis, Hosted and Maintained by SirCode</p>
+			<p>This server works alongside the original deepworld game, instructions for downloading and using it below.</p>
+			<p>The "Brainwine" server software is Developed by Dennis, and is Hosted and Maintained by SirCode</p>
 		</div>
 	</header>
 	<div class="container features">
