@@ -43,28 +43,26 @@ function loadItemData() {
             for (let i = 0; i < itemsArray.length; ++i) {
                 const currentItem = json.items[itemsArray[i]];
                 try {
-                    if (currentItem.code) {
-                        const contentElm = document.createElement("p");
-                        const contentImg = document.createElement("img");
-                        const contentTitle = document.createElement("a");
-                        const contentSep = document.createElement("br");
-                        const contentSubTitle = document.createElement("a");
-                        const contentContent = document.createElement("div");
-                        contentImg.classList.add("item-image");
-                        contentImg.src = spriteURL + (currentItem.inventory || currentItem.inventory_frame.replace("inventory/", "") || itemsArray[i]) + ".png";
-                        contentTitle.innerText += (currentItem.title || "(Missing Title)");
-                        contentTitle.classList.add("item-title");
-                        if (!currentItem.title) currentTitle.classList.add("red-item");
-                        contentSubTitle.innerText += itemsArray[i];
-                        contentSubTitle.classList.add("item-subtitle");
-                        contentContent.classList.add("item-content");
-                        contentElm.appendChild(contentImg);
-                        contentContent.appendChild(contentTitle);
-                        contentContent.appendChild(contentSep);
-                        contentContent.appendChild(contentSubTitle);
-                        contentElm.appendChild(contentContent);
-                        rowElm.appendChild(contentElm);
-                    }
+                    const contentElm = document.createElement("p");
+                    const contentImg = document.createElement("img");
+                    const contentTitle = document.createElement("a");
+                    const contentSep = document.createElement("br");
+                    const contentSubTitle = document.createElement("a");
+                    const contentContent = document.createElement("div");
+                    contentImg.classList.add("item-image");
+                    contentImg.src = spriteURL + (currentItem.inventory || currentItem.inventory_frame.replace("inventory/", "") || itemsArray[i]) + ".png";
+                    contentTitle.innerText += (currentItem.title || "(Missing Title)");
+                    contentTitle.classList.add("item-title");
+                    if (!currentItem.title) currentTitle.classList.add("red-item");
+                    contentSubTitle.innerText += itemsArray[i];
+                    contentSubTitle.classList.add("item-subtitle");
+                    contentContent.classList.add("item-content");
+                    contentElm.appendChild(contentImg);
+                    contentContent.appendChild(contentTitle);
+                    contentContent.appendChild(contentSep);
+                    contentContent.appendChild(contentSubTitle);
+                    contentElm.appendChild(contentContent);
+                    rowElm.appendChild(contentElm);
                 } catch(e) {
                     console.log(e);
                 }
