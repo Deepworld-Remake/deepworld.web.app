@@ -27,9 +27,10 @@ function loadItemData() {
         let itemsArray = [];
         for (let i = 0; i < jsonConfig.inventory.length; ++i) {
             var currentTab = jsonConfig.inventory[i];
-            console.log(i, currentTab);
+            console.log(i, currentTab.items);
             itemsArray.concat(currentTab.items);
         }
+        console.log(itemsArray);
         xhr2.addEventListener("load", (e) => {
             const text = e.target.responseText;
             const json = JSON.parse(text);
