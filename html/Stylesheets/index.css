@@ -177,7 +177,7 @@ body * {
 }
 
 .red-item {
-	color: #ff3131;
+	color: #ff3131 !important;
 }
 
 @media (max-width: 575.98px) {
