@@ -22,7 +22,7 @@ function loadItemData() {
     const xhr = new XMLHttpRequest();
     xhr.addEventListener("load", (ec) => {
         const xhr2 = new XMLHttpRequest();
-        const textConfig = e.target.responseText;
+        const textConfig = ec.target.responseText;
         const jsonConfig = JSON.parse(textConfig);
         console.log(jsonConfig.inventory);
         xhr2.addEventListener("load", (e) => {
