@@ -24,14 +24,12 @@ function loadItemData() {
         const xhr2 = new XMLHttpRequest();
         const textConfig = ec.target.responseText;
         const jsonConfig = JSON.parse(textConfig);
-        console.log(jsonConfig.inventory);
         let itemsArray = [];
         for (let i = 0; i < jsonConfig.inventory.length; ++i) {
             var currentTab = jsonConfig.inventory[i];
             itemsArray.concat(currentTab.items);
         }
         xhr2.addEventListener("load", (e) => {
-            console.log(e);
             const text = e.target.responseText;
             const json = JSON.parse(text);
             itemDataCache = json;
@@ -41,19 +39,15 @@ function loadItemData() {
             titleElm.classList.add("feature-title");
             titleElm.innerText = "Items and Collectibles";
             rowElm.appendChild(titleElm);
+            console.log(itemsArray.length);
             for (let i = 0; i < itemsArray.length; ++i) {
                 const currentItem = json.items[itemsArray[i]];
                 if (currentItem.code) {
                     const contentElm = document.createElement("p");
-                    const contentImg = document.createElement("object");
                     const contentNoneImg = document.createElement("img");
                     const contentTitle = document.createElement("a");
-                    contentImg.classList.add("item-object");
                     contentNoneImg.classList.add("item-image");
-                    contentImg.data = spriteURL + (currentItem.inventory ? currentItem.inventory : currentKey) + ".png";
-                    contentNoneImg.src = spriteURL + "none.png";
-                    contentImg.appendChild(contentNoneImg);
-                    contentElm.appendChild(contentImg);
+                    contentNoneImg.src = spriteURL + currentItem.inventory + ".png";
                     contentTitle.innerText += currentKey;
                     contentTitle.classList.add("item-title");
                     contentElm.appendChild(contentTitle);
