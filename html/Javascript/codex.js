@@ -47,12 +47,20 @@ function loadItemData() {
                         const contentElm = document.createElement("p");
                         const contentImg = document.createElement("img");
                         const contentTitle = document.createElement("a");
+                        const contentSep = document.createElement("br");
+                        const contentSubTitle = document.createElement("a");
+                        const contentContent = document.createElement("span");
                         contentImg.classList.add("item-image");
                         contentImg.src = spriteURL + (currentItem.inventory || currentItem.inventory_frame.replace("inventory/", "") || itemsArray[i]) + ".png";
-                        contentTitle.innerText += " " + (currentItem.title || itemsArray[i] + " (Missing Title)");
+                        contentTitle.innerText += (" " + (currentItem.title || "(Missing Title)"));
                         contentTitle.classList.add("item-title");
+                        contentSubTitle.innerText += (" " + itemsArray[i]);
+                        contentSubTitle.classList.add("item-subtitle");
                         contentElm.appendChild(contentImg);
-                        contentElm.appendChild(contentTitle);
+                        contentContent.appendChild(contentTitle);
+                        contentContent.appendChild(contentSep);
+                        contentContent.appendChild(contentSubTitle);
+                        contentElm.appendChild(contentContent);
                         rowElm.appendChild(contentElm);
                     }
                 } catch(e) {
