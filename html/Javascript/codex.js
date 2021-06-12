@@ -50,10 +50,16 @@ function loadItemData() {
                     const contentSubTitle = document.createElement("a");
                     const contentContent = document.createElement("div");
                     contentImg.classList.add("item-image");
-                    contentImg.src = spriteURL + (currentItem.inventory || currentItem.inventory_frame.replace("inventory/", "") || itemsArray[i]) + ".png";
+                    if (currentItem.inventory)
+                        contentImg.src = spriteURL + currentItem.inventory + ".png";
+                    else if (currentItem.inventory_frame) 
+                        contentImg.src = spriteURL + currentItem.inventory_frame.replace("inventory/", "") + ".png";
+                    else
+                        contentImg.src = spriteURL + itemsArray[i] + ".png";
                     contentTitle.innerText += (currentItem.title || "(Missing Title)");
                     contentTitle.classList.add("item-title");
-                    if (!currentItem.title) contentTitle.classList.add("red-item");
+                    if (!currentItem.title)
+                        contentTitle.classList.add("red-item");
                     contentSubTitle.innerText += itemsArray[i];
                     contentSubTitle.classList.add("item-subtitle");
                     contentContent.classList.add("item-content");
