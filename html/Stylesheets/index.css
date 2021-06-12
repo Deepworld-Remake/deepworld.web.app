@@ -1,5 +1,6 @@
 :root {
 	--text-color: #ffffff;
+	--text-sub-color: #a8a8a8;
 	--back-color: #101010;
 	--back-color-brighter: #303030;
 }
@@ -151,7 +152,6 @@ body * {
 .item-object {
 	width: 2em;
 	height: 2em;
-	margin: 0 0.5em 0 0 !important;
 	box-shadow: none !important;
 	object-fit: scale-down;
 }
@@ -159,6 +159,7 @@ body * {
 .item-image {
 	width: 2em;
 	height: 2em;
+	margin: 0 0.5em 0 0 !important;
 	box-shadow: none !important;
 	object-fit: scale-down;
 }
@@ -166,6 +167,11 @@ body * {
 .item-title {
 	position: relative;
 	top: -0.5em;
+}
+
+.item-subtitle {
+	font-size: 0.5em;
+	color: var(--text-sub-color);
 }
 
 @media (max-width: 575.98px) {
