@@ -45,12 +45,13 @@ function loadItemData() {
                 try {
                     if (currentItem.code) {
                         const contentElm = document.createElement("p");
-                        const contentNoneImg = document.createElement("img");
+                        const contentImg = document.createElement("img");
                         const contentTitle = document.createElement("a");
-                        contentNoneImg.classList.add("item-image");
-                        contentNoneImg.src = spriteURL + (currentItem.inventory || currentItem.inventory_frame.replace("inventory/", "") || itemsArray[i]) + ".png";
-                        contentTitle.innerText += currentItem.name;
+                        contentImg.classList.add("item-image");
+                        contentImg.src = spriteURL + (currentItem.inventory || currentItem.inventory_frame.replace("inventory/", "") || itemsArray[i]) + ".png";
+                        contentTitle.innerText += currentItem.Title || itemsArray[i];
                         contentTitle.classList.add("item-title");
+                        contentElm.appendChild(contentImg);
                         contentElm.appendChild(contentTitle);
                         rowElm.appendChild(contentElm);
                     }
