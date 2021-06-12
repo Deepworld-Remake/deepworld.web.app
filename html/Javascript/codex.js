@@ -48,7 +48,7 @@ function loadItemData() {
                         const contentNoneImg = document.createElement("img");
                         const contentTitle = document.createElement("a");
                         contentNoneImg.classList.add("item-image");
-                        contentNoneImg.src = spriteURL + itemsArray[i] + ".png";
+                        contentNoneImg.src = spriteURL + (currentItem.inventory || currentItem.inventory_frame.replace("inventory/", "") || itemsArray[i]) + ".png";
                         contentTitle.innerText += currentItem.name;
                         contentTitle.classList.add("item-title");
                         contentElm.appendChild(contentTitle);
