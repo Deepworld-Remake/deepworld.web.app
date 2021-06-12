@@ -178,6 +178,11 @@ body * {
 	color: #ff3131 !important;
 }
 
+.item-content {
+	display: inline-block;
+	height: 2em;
+}
+
 @media (max-width: 575.98px) {
 	.description {
 		left: 0;
