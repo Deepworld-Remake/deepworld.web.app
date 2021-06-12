@@ -42,16 +42,20 @@ function loadItemData() {
             rowElm.appendChild(titleElm);
             for (let i = 0; i < itemsArray.length; ++i) {
                 const currentItem = json.items[itemsArray[i]];
-                if (currentItem.code) {
-                    const contentElm = document.createElement("p");
-                    const contentNoneImg = document.createElement("img");
-                    const contentTitle = document.createElement("a");
-                    contentNoneImg.classList.add("item-image");
-                    contentNoneImg.src = spriteURL + itemsArray[i] + ".png";
-                    contentTitle.innerText += currentItem.name;
-                    contentTitle.classList.add("item-title");
-                    contentElm.appendChild(contentTitle);
-                    rowElm.appendChild(contentElm);
+                try {
+                    if (currentItem.code) {
+                        const contentElm = document.createElement("p");
+                        const contentNoneImg = document.createElement("img");
+                        const contentTitle = document.createElement("a");
+                        contentNoneImg.classList.add("item-image");
+                        contentNoneImg.src = spriteURL + itemsArray[i] + ".png";
+                        contentTitle.innerText += currentItem.name;
+                        contentTitle.classList.add("item-title");
+                        contentElm.appendChild(contentTitle);
+                        rowElm.appendChild(contentElm);
+                    }
+                } catch(e) {
+                    console.log(e);
                 }
             }
             document.querySelector(".row").appendChild(rowElm);
