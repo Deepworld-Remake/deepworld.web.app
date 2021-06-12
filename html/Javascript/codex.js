@@ -54,6 +54,7 @@ function loadItemData() {
                         contentImg.src = spriteURL + (currentItem.inventory || currentItem.inventory_frame.replace("inventory/", "") || itemsArray[i]) + ".png";
                         contentTitle.innerText += (currentItem.title || "(Missing Title)");
                         contentTitle.classList.add("item-title");
+                        if (!currentItem.title) currentTitle.classList.add("red-item");
                         contentSubTitle.innerText += itemsArray[i];
                         contentSubTitle.classList.add("item-subtitle");
                         contentContent.classList.add("item-content");
