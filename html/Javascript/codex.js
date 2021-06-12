@@ -56,10 +56,13 @@ function loadItemData() {
                         contentImg.src = spriteURL + currentItem.inventory_frame.replace("inventory/", "") + ".png";
                     else
                         contentImg.src = spriteURL + itemsArray[i] + ".png";
-                    contentTitle.innerText += (currentItem.title || "(Missing Title)");
                     contentTitle.classList.add("item-title");
-                    if (!currentItem.title)
+                    if (!currentItem.title) {
                         contentTitle.classList.add("red-item");
+                        contentTitle.innerText += itemsArray[i].split("/")[1]
+                            .replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
+                    } else
+                        contentTitle.innerText += currentItem.title;
                     contentSubTitle.innerText += itemsArray[i];
                     contentSubTitle.classList.add("item-subtitle");
                     contentContent.classList.add("item-content");
