@@ -25,6 +25,11 @@ function loadItemData() {
         const textConfig = ec.target.responseText;
         const jsonConfig = JSON.parse(textConfig);
         console.log(jsonConfig.inventory);
+        let itemsArray = [];
+        for (let i = 0; i < jsonConfig.inventory.length; ++i) {
+            var currentTab = jsonConfig.inventory[i];
+            itemsArray.concat(currentTab.items);
+        }
         xhr2.addEventListener("load", (e) => {
             console.log(e);
             const text = e.target.responseText;
@@ -36,10 +41,9 @@ function loadItemData() {
             titleElm.classList.add("feature-title");
             titleElm.innerText = "Items and Collectibles";
             rowElm.appendChild(titleElm);
-            for (let i = 0; i < Object.keys(json.items).length; ++i) {
-                const currentKey = Object.keys(json.items)[i];
-                const currentItem = json.items[currentKey];
-                if (currentItem.code && (currentItem.gui ? currentItem.gui : true)) {
+            for (let i = 0; i < itemsArray.length; ++i) {
+                const currentItem = json.items[itemsArray[i]];
+                if (currentItem.code) {
                     const contentElm = document.createElement("p");
                     const contentImg = document.createElement("object");
                     const contentNoneImg = document.createElement("img");
