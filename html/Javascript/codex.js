@@ -60,6 +60,7 @@ function loadItemData() {
                     if (!currentItem.title) {
                         contentTitle.classList.add("red-item");
                         contentTitle.innerText += itemsArray[i].split("/")[1]
+                            .replace("-", " ")
                             .replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
                     } else
                         contentTitle.innerText += currentItem.title;
