@@ -164,15 +164,13 @@ body * {
 	object-fit: scale-down;
 }
 
-.item-title {
-	position: relative;
-	top: -0.5em;
-}
+/* .item-title {
+} */
 
 .item-subtitle {
-	position: position;
+	position: absolute;
 	top: -0.1em;
-	font-size: 0.5em;
+	font-size: 0.8em;
 	color: var(--text-sub-color);
 }
 
