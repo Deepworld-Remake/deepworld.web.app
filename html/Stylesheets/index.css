@@ -180,7 +180,7 @@ body * {
 
 .item-content {
 	position: relative;
-	top: 1em;
+	top: 0.8em;
 	display: inline-block;
 	height: 2em;
 }
