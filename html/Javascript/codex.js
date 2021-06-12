@@ -49,7 +49,7 @@ function loadItemData() {
                         const contentTitle = document.createElement("a");
                         contentImg.classList.add("item-image");
                         contentImg.src = spriteURL + (currentItem.inventory || currentItem.inventory_frame.replace("inventory/", "") || itemsArray[i]) + ".png";
-                        contentTitle.innerText += currentItem.Title || itemsArray[i];
+                        contentTitle.innerText += " " + (currentItem.title || itemsArray[i] + " (Missing Title)");
                         contentTitle.classList.add("item-title");
                         contentElm.appendChild(contentImg);
                         contentElm.appendChild(contentTitle);
