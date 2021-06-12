@@ -30,7 +30,6 @@ function loadItemData() {
             console.log(i, currentTab.items);
             itemsArray = itemsArray.length > 0 ? itemsArray.concat(currentTab.items) : itemsArray = currentTab.items;
         }
-        console.log(itemsArray);
         xhr2.addEventListener("load", (e) => {
             const text = e.target.responseText;
             const json = JSON.parse(text);
@@ -41,7 +40,6 @@ function loadItemData() {
             titleElm.classList.add("feature-title");
             titleElm.innerText = "Items and Collectibles";
             rowElm.appendChild(titleElm);
-            console.log(itemsArray.length);
             for (let i = 0; i < itemsArray.length; ++i) {
                 const currentItem = json.items[itemsArray[i]];
                 if (currentItem.code) {
@@ -49,8 +47,8 @@ function loadItemData() {
                     const contentNoneImg = document.createElement("img");
                     const contentTitle = document.createElement("a");
                     contentNoneImg.classList.add("item-image");
-                    contentNoneImg.src = spriteURL + currentItem.inventory + ".png";
-                    contentTitle.innerText += currentKey;
+                    contentNoneImg.src = spriteURL + itemsArray[i] + ".png";
+                    contentTitle.innerText += currentItem.name;
                     contentTitle.classList.add("item-title");
                     contentElm.appendChild(contentTitle);
                     rowElm.appendChild(contentElm);
