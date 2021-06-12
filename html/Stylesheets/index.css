@@ -179,6 +179,8 @@ body * {
 }
 
 .item-content {
+	position: relative;
+	top: 1em;
 	display: inline-block;
 	height: 2em;
 }
