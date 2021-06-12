@@ -174,10 +174,6 @@ body * {
 	color: var(--text-sub-color) !important;
 }
 
-.red-item {
-	color: #ffbe31 !important;
-}
-
 .item-content {
 	position: relative;
 	top: 0.8em;

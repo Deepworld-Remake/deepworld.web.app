@@ -57,12 +57,11 @@ function loadItemData() {
                     else
                         contentImg.src = spriteURL + itemsArray[i] + ".png";
                     contentTitle.classList.add("item-title");
-                    if (!currentItem.title) {
-                        contentTitle.classList.add("red-item");
+                    if (!currentItem.title)
                         contentTitle.innerText += itemsArray[i].split("/")[1]
                             .replace("-", " ")
                             .replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
-                    } else
+                    else
                         contentTitle.innerText += currentItem.title;
                     contentSubTitle.innerText += itemsArray[i];
                     contentSubTitle.classList.add("item-subtitle");
