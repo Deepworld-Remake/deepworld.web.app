@@ -71,7 +71,7 @@
 				<h3 class="feature-title">The heck? Deepworlds being remade?!</h3>
 				<p>
                 Youre probably new here. Probably sent here via a website or via discord. If so, heres all you need to know; Deepworld Remastered is a remake of deepworld.
-				It is <b>NOT</b> a replacement. The purpose of it is to rebuild the entire source of the game, without a source,
+				It is <b>NOT</b> a replacement. The purpose of it is to rebuild the entire source of the game,
 				so that it may be maintained and kept supported for years to come.
 				</p>
 			</div>
