@@ -79,8 +79,8 @@
 				<h3 class="feature-title">Whos working on this? Any others?</h3>
 				<p>
                 Deepworld Remastered is worked on by me (SirCode), and I've made decent progress over the last year.
-				More information on Deepworld Remastered can be found on the <a href="../server">Downloads Page</a>
-				The Deepworld Private Server (Called Brainwine) was created and is worked on by Dennis, and the game is already playable and has complete multiplayer support.
+				More information on Deepworld Remastered can be found on the <a href="../server">Downloads Page</a>.
+				As for the Deepworld Private Server (Called Brainwine), it was created and is worked on by Dennis, and the game is already playable and has complete multiplayer support.
 				More information on the Private Server can be found on the <a href="../server">Private Server Page</a>
 				</p>
 			</div>
