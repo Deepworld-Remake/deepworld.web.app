@@ -21,21 +21,21 @@
 
 	<!-- Primary Meta Tags -->
 	<title>Frequently Asked Questions</title>
-	<meta name="title" content="Example Page">
-	<meta name="description" content="Main website for my Projects and Portfolio">
+	<meta name="title" content="Deepworld Remastered FAQ">
+	<meta name="description" content="Frequently Asked Questions about Deepworld Remastered">
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Example Page">
-	<meta property="og:description" content="Main website for my Projects and Portfolio">
-	<meta property="og:image" content="../Images/D.png">
+	<meta property="og:title" content="Deepworld Remastered FAQ">
+	<meta property="og:description" content="Frequently Asked Questions about Deepworld Remastered">
+	<meta property="og:image" content="./Images/D.png">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:title" content="Example Page">
-	<meta property="twitter:description" content="Main website for my Projects and Portfolio">
-	<meta property="twitter:image" content="../Images/D.png">
+	<meta property="twitter:title" content="Deepworld Remastered FAQ">
+	<meta property="twitter:description" content="Frequently Asked Questions about Deepworld Remastered">
+	<meta property="twitter:image" content="./Images/D.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<style>
