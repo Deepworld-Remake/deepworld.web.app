@@ -106,9 +106,7 @@
 					Every single universe you join is different. Differnt worlds, different inventories, different skills /
 					levels, different ranks, different clothing.
 					The only thing that is the same across universes, is your Order of the Sun AND Eye rank, your Player
-					Name, your Leaderboard Data and your Friends List.
-					Your "Friends List" is the disabled "Offline" tab ingame. Currently multiplayer does not function, so it
-					doesnt do anything.
+					Name, your Leaderboard Data and your Friends List. (And also some extremely rare cosmetic items you earn, those will transfer aswell)
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12">
