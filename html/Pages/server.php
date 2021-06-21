@@ -105,17 +105,17 @@
 					<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Custom/Deepworld-SirCodeServer.ipa">Deepworld-SirCodeServer.ipa</a><br>
 					You need this custom built app to play on the private server.<br><br>
 					<h5>What next?</h5>
-					You'll want to sideload the app onto your iphone / ipad. <br>
+					You'll want to sideload the app onto your iphone or ipad<br>
 					Currently we've found that only Sideloadly can do it, other sideloaders can't seem to handle deepworld. <br>
 					You can download Sideloadly from these links: <br>
 					<a href="https://armconverter.com/sideloadly/SideloadlySetup64.exe">Windows 7/8/10 x64</a> <br>
 					<a href="https://armconverter.com/sideloadly/SideloadlySetup32.exe">Windows 7/8/10 x32</a> <br>
-					<a href="https://armconverter.com/sideloadly/SideloadlySetup.dmg">MacOS 10.12 or higher</a> (M1 Supported) <br>
+					<a href="https://armconverter.com/sideloadly/SideloadlySetup.dmg">MacOS 10.12 or higher (M1 Supported)</a> <br>
 					Or get it from the official page if you don't trust my direct links: <br>
 					<a href="https://iosgods.com/topic/130167-windowsmacosm1ios-15-introducing-sideloadly-working-cydia-impactor-alternative/#comments">Sideloadly iOSGods</a> <br><br>
 					<h5>How do I use sideloadly?</h5>
 					After you downloaded it, check the first two options in the advanced settings: <br>
-					<img src="../Images/server/tutorialOne.png" class="img-fluid">
+					<img src="../Images/server/tutorialOneCut.png" class="img-fluid">
 				</span>
 			</div>
 		</div> 
