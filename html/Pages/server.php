@@ -80,21 +80,42 @@
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<h3 class="feature-title">Connecting via PC?</h3>
 				<span>
-					<h4>Want to connect to my server?</h4>
+					<h5>Want to connect to my server?</h5>
 					Download this DLL: <br>
 					<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Custom/Assembly-CSharp.dll">Assembly-CSharp.dll</a><br>
 					This DLL is used by deepworld to attach a custom API and Gateway. (My server) <br><br>
-					<h4>Want to connect to a custom server?</h4>
+					<h5>Want to connect to a custom server?</h5>
 					You'll want to download this DLL: <br>
 					<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Universal/Assembly-CSharp.dll">Assembly-CSharp.dll (Universal)</a><br>
 					After you've downloaded that, you'll need to download and edit this registry script: <br>
 					<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Universal/Registry Script.reg">Registry Script.reg (Universal)</a><br>
 					Edit the file in a text editor, replace the IP and Port with a custom server address, then run the script. Simple as that. 
 					This will only work with custom servers.<br><br>
-					<h4>Using the DLL(s)?</h4>
+					<h5>Using the DLL(s)?</h5>
 					<b>After you've downloaded either DLL above:</b> Go to your installation of deepworld, go into the <b>Deepworld_Data\Managed</b> folder,
 					and replace Assembly-CSharp.dll with the one you downloaded. <br>
 					The next time you run deepworld, it should take effect. For custom servers, it will only work if you have a valid IP and Port.
+				</span>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Connecting via iOS?</h3>
+				<span>
+					<h5>Want to connect to my server?</h5>
+					Download this IPA: <br>
+					<a href="https://github.com/Deepworld-Remake/Deepworld-Server-Resources/raw/main/Custom/Deepworld-SirCodeServer.ipa">Deepworld-SirCodeServer.ipa</a><br>
+					You need this custom built app to play on the private server.<br><br>
+					<h5>What next?</h5>
+					You'll want to sideload the app onto your iphone / ipad. <br>
+					Currently we've found that only Sideloadly can do it, other sideloaders can't seem to handle deepworld. <br>
+					You can download Sideloadly from these links: <br>
+					<a href="https://armconverter.com/sideloadly/SideloadlySetup64.exe">Windows 7/8/10 x64</a> <br>
+					<a href="https://armconverter.com/sideloadly/SideloadlySetup32.exe">Windows 7/8/10 x32</a> <br>
+					<a href="https://armconverter.com/sideloadly/SideloadlySetup.dmg">MacOS 10.12 or higher</a> (M1 Supported) <br>
+					Or get it from the official page if you don't trust my direct links: <br>
+					<a href="https://iosgods.com/topic/130167-windowsmacosm1ios-15-introducing-sideloadly-working-cydia-impactor-alternative/#comments">Sideloadly iOSGods</a> <br><br>
+					<h5>How do I use sideloadly?</h5>
+					After you downloaded it, check the first two options in the advanced settings: <br>
+					<img src="../Images/server/tutorialOne.png" class="img-fluid">
 				</span>
 			</div>
 		</div> 
