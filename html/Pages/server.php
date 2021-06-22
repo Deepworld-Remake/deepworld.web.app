@@ -118,12 +118,16 @@
 					<img src="../Images/server/tutorialOneCut.png" class="img-fluid"> <br>
 					Plug in your device, and select it on the dropdown (it must be turned on and unlocked) <br>
 					Then type in your apple id Email. (I promise its safe)
-					Finally, click the big IPA button and select the IPA you downloaded earlier:
+					Then, click the big IPA button and select the IPA you downloaded earlier:
 					<img src="../Images/server/tutorialOneCutTwo.png" class="img-fluid"> <br>
 					Finally click the big start button. It'll ask to send your apple id credentials to apple, and you might get a request on your device. <br>
 					<img src="../Images/server/tutorialOneCutThree.png" class="img-fluid"> <br>
 					If you do get a request for a code, click allow on your device, and type the code you see into the input. <br>
 					Watch the percentage near the bottom of the window, and once it says "done" youll be able to open and play the game.
+					<br>
+					The app icon doesnt work on iphones for whatever reason (ive tried fixing it) so it may just look like this: <br>
+					<img src="../Images/server/tutorialOneIcon.png" class="img-fluid"><br>
+					However, it wont effect the gameplay though and the app should work either way.
 				</span>
 			</div>
 		</div> 
