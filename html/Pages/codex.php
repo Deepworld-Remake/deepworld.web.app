@@ -67,9 +67,10 @@
 		</div>
 	</header>
 	<div class="container features">
-		<div class="row">
-			<input type="text" placeholder="Keyword or Term" class="searchBar"> <button class="searchBarButton">Search</button>
-		</div><br>
+		<input type="text" placeholder="Keyword or Term" class="searchBar">
+		<br>
+		<button class="searchBarButton">Search</button>
+		<br>
 		<div class="row itemList">
 		</div> 
 	</div>

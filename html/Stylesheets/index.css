@@ -124,11 +124,6 @@ body * {
 	border-radius: 100%;
 }
 
-.features .form-control,
-.features input {
-	border-radius: 0;
-}
-
 .features .btn {
 	background-color: var(--back-color-brighter);
 	color: var(--text-color);
