@@ -54,7 +54,6 @@ function loadItemData() {
         let itemsArray = [];
         for (let i = 0; i < jsonConfig.inventory.length; ++i) {
             var currentTab = jsonConfig.inventory[i];
-            console.log(i, currentTab.items);
             itemsArray = itemsArray.length > 0 ? itemsArray.concat(currentTab.items) : itemsArray = currentTab.items;
         }
         xhr2.addEventListener("load", (e) => {
@@ -117,7 +116,7 @@ function loadItemData() {
 }
 
 document.querySelector(".searchBarButton").addEventListener("click", () => {
-    var lowest = 10;
+    var lowest = 5;
     var lowestElements = [];
     var item = document.querySelector(".searchBar").value;
     for (let i = 0; i < itemDataCacheTitles.length; ++i) {
