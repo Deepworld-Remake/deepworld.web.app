@@ -89,6 +89,12 @@ function loadItemData() {
                             .replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
                     else
                         contentTitle.innerText += currentItem.title;
+                    itemDataCacheTitles.push(currentItem.title || itemsArray[i].split("/")[1]
+                    .replace("-", " ")
+                    .replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase()));
+                    itemDataCacheElements[currentItem.title || itemsArray[i].split("/")[1]
+                    .replace("-", " ")
+                    .replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase())] = contentElm;
                     contentSubTitle.innerText += itemsArray[i];
                     contentSubTitle.classList.add("item-subtitle");
                     contentContent.classList.add("item-content");
@@ -98,8 +104,6 @@ function loadItemData() {
                     contentContent.appendChild(contentSubTitle);
                     contentElm.appendChild(contentContent);
                     rowElm.appendChild(contentElm);
-                    itemDataCacheTitles.push(currentItem.title);
-                    itemDataCacheElements[currentItem.title] = contentElm;
                 } catch (e) {
                     console.log(e);
                 }
