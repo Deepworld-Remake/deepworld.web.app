@@ -122,7 +122,7 @@ document.querySelector(".searchBarButton").addEventListener("click", () => {
     var item = document.querySelector(".searchBar").value;
     for (let i = 0; i < itemDataCacheTitles.length; ++i) {
         itemDataCacheElements[itemDataCacheTitles[i]].classList.add("hiddenItem");
-        var nextLowest = getEditDistance(itemDataCacheTitles[i], item);
+        var nextLowest = getEditDistance(itemDataCacheTitles[i] || "", item);
         if (nextLowest < lowest) {
             lowest = nextLowest;
             lowestElements.push(itemDataCacheElements[itemDataCacheTitles[i]]);
