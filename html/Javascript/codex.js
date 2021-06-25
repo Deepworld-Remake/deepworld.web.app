@@ -116,7 +116,7 @@ function loadItemData() {
 }
 
 document.querySelector(".searchBarButton").addEventListener("click", () => {
-    var lowest = 5;
+    var lowest = 2;
     var lowestElements = [];
     var item = document.querySelector(".searchBar").value;
     for (let i = 0; i < itemDataCacheTitles.length; ++i) {
