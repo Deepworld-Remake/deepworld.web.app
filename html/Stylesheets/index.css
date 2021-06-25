@@ -176,6 +176,10 @@ body * {
 	height: 2em;
 }
 
+.hiddenItem {
+	display: none !important;
+}
+
 .searchBar, .searchBarButton {
 	margin: 15px;
 	padding: 5px;

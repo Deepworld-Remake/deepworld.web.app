@@ -1,5 +1,7 @@
 const spriteURL = "https://cdn.jsdelivr.net/gh/Deepworld-Remake/Deepworld-Source-Assets@master/Sprites/inventory/";
 let itemDataCache;
+let itemDataCacheTitles = [];
+let itemDataCacheElements = [];
 
 function clearConsole() {
     if (console._commandLineAPI && console._commandLineAPI.clear) {
@@ -10,6 +12,31 @@ function clearConsole() {
         console.clear();
     }
 }
+
+function getEditDistance(a, b) {
+    if (a.length === 0) return b.length;
+    if (b.length === 0) return a.length;
+    var matrix = [];
+    var i;
+    for (i = 0; i <= b.length; ++i) {
+        matrix[i] = [i];
+    }
+    var j;
+    for (j = 0; j <= a.length; ++j) {
+        matrix[0][j] = j;
+    }
+    for (i = 1; i <= b.length; ++i) {
+        for (j = 1; j <= a.length; ++j) {
+            if (b.charAt(i - 1) == a.charAt(j - 1)) {
+                matrix[i][j] = matrix[i - 1][j - 1];
+            } else {
+                matrix[i][j] = Math.min(matrix[i - 1][j - 1] + 1, Math.min(matrix[i][j - 1] + 1, matrix[i - 1][j] + 1));
+            }
+        }
+    }
+
+    return matrix[b.length][a.length];
+};
 
 function imageExists(url) {
     var http = new XMLHttpRequest();
@@ -52,7 +79,7 @@ function loadItemData() {
                     contentImg.classList.add("item-image");
                     if (currentItem.inventory)
                         contentImg.src = spriteURL + currentItem.inventory + ".png";
-                    else if (currentItem.inventory_frame) 
+                    else if (currentItem.inventory_frame)
                         contentImg.src = spriteURL + currentItem.inventory_frame.replace("inventory/", "") + ".png";
                     else
                         contentImg.src = spriteURL + itemsArray[i] + ".png";
@@ -72,7 +99,9 @@ function loadItemData() {
                     contentContent.appendChild(contentSubTitle);
                     contentElm.appendChild(contentContent);
                     rowElm.appendChild(contentElm);
-                } catch(e) {
+                    itemDataCacheTitles.push(currentItem.title);
+                    itemDataCacheElements[currentItem.title] = contentElm;
+                } catch (e) {
                     console.log(e);
                 }
             }
@@ -88,5 +117,27 @@ function loadItemData() {
 }
 
 document.querySelector(".searchBarButton").addEventListener("click", () => {
-
+    var lowest = 10;
+    var lowestElements = [];
+    var item = document.querySelector(".searchBar").value;
+    for (let i = 0; i < itemDataCacheTitles.length; ++i) {
+        itemDataCacheElements[itemDataCacheTitles[i]].classList.add("hiddenItem");
+        var nextLowest = getEditDistance(itemDataCacheTitles[i], item);
+        if (nextLowest < lowest) {
+            lowest = nextLowest;
+            lowestElements.push(itemDataCacheElements[itemDataCacheTitles[i]]);
+            if (nextLowest == 0) {
+                lowestElements = [];
+                lowestElements = itemDataCacheElements[itemDataCacheTitles[i]];
+                break;
+            }
+        }
+    }
+    if (lowest == 0)
+        lowestElements.classList.remove("hiddenItem");
+    else if (lowestElements.length > 0) {
+        for (let i = 0; i < lowestElements.length; ++i) {
+            lowestElements[i].classList.remove("hiddenItem");
+        }
+    }
 });
