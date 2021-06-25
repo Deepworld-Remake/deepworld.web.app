@@ -68,7 +68,7 @@
 	</header>
 	<div class="container features">
 		<div class="row searchBar">
-			<input type="text" placeholder="Search for an Item or Block">
+			<input type="text" placeholder="Search for an Item or Block" class="searchBar">
 		</div><br>
 		<div class="row itemList">
 		</div> 

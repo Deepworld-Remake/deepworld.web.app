@@ -30,7 +30,7 @@ body * {
 }
 
 .navbar * {
-	color: white;
+	color: var(--text-color);
 }
 
 .nav-link {
@@ -131,7 +131,7 @@ body * {
 
 .features .btn {
 	background-color: var(--back-color-brighter);
-	color: #fff;
+	color: var(--text-color);
 	margin-top: 20px;
 }
 
@@ -179,6 +179,15 @@ body * {
 	top: 0.8em;
 	display: inline-block;
 	height: 2em;
+}
+
+.searchBar {
+	margin: 15px;
+	padding: 5px;
+	border-radius: 5px;
+	color: var(--text-color);
+	background-color: var(--back-color-brighter);
+	border: 0;
 }
 
 @media (max-width: 575.98px) {
