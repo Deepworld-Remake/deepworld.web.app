@@ -137,11 +137,11 @@ document.querySelector(".searchBarButton").addEventListener("click", () => {
             }
         }
     }
-    if (foundLowest)
-        lowestElements.classList.remove("hiddenItem");
-    else if (lowestElements.length > 0) {
+    if (foundLowest) {
+        // lowestElements.classList.remove("hiddenItem");
+    } else if (lowestElements.length > 0) {
         for (let i = 0; i < lowestElements.length; ++i) {
-            lowestElements[i].classList.remove("hiddenItem");
+            // lowestElements[i].classList.remove("hiddenItem");
         }
     }
 });
