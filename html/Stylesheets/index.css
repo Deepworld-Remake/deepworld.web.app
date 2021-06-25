@@ -188,6 +188,7 @@ body * {
 	color: var(--text-color);
 	background-color: var(--back-color-brighter);
 	border: 0;
+	width: 100%;
 }
 
 @media (max-width: 575.98px) {
