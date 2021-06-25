@@ -76,7 +76,7 @@ function loadItemData() {
                     console.log(e);
                 }
             }
-            document.querySelector(".row").appendChild(rowElm);
+            document.querySelector(".itemList").appendChild(rowElm);
         });
         xhr2.overrideMimeType("text/plain");
         xhr2.open("GET", "https://cdn.jsdelivr.net/gh/Deepworld-Remake/Deepworld-Config-JSON@45ca91265738360f7b0f7b76d87f5bbd0cf92606/config-items.json");
