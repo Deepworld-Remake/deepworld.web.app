@@ -118,6 +118,7 @@ function loadItemData() {
 document.querySelector(".searchBarButton").addEventListener("click", () => {
     var lowest = 2;
     var lowestElements = [];
+    var foundLowest = false;
     var item = document.querySelector(".searchBar").value;
     for (let i = 0; i < itemDataCacheTitles.length; ++i) {
         itemDataCacheElements[itemDataCacheTitles[i]].classList.add("hiddenItem");
@@ -126,13 +127,13 @@ document.querySelector(".searchBarButton").addEventListener("click", () => {
             lowest = nextLowest;
             lowestElements.push(itemDataCacheElements[itemDataCacheTitles[i]]);
             if (nextLowest == 0) {
-                lowestElements = [];
+                foundLowest = true;
                 lowestElements = itemDataCacheElements[itemDataCacheTitles[i]];
                 break;
             }
         }
     }
-    if (lowest == 0)
+    if (foundLowest)
         lowestElements.classList.remove("hiddenItem");
     else if (lowestElements.length > 0) {
         for (let i = 0; i < lowestElements.length; ++i) {
