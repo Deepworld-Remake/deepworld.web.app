@@ -86,3 +86,7 @@ function loadItemData() {
     xhr.open("GET", "https://cdn.jsdelivr.net/gh/Deepworld-Remake/Deepworld-Config-JSON@45ca91265738360f7b0f7b76d87f5bbd0cf92606/config.json");
     xhr.send();
 }
+
+document.querySelector(".searchBarButton").addEventListener("click", () => {
+
+});
