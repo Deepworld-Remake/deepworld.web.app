@@ -69,7 +69,7 @@
 	<div class="container features">
 		<div class="row searchBar">
 			<input type="text" placeholder="Search for an Item or Block">
-		</div>
+		</div><br>
 		<div class="row itemList">
 		</div> 
 	</div>
